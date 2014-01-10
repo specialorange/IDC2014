@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex sigproc-sp"] 1389210112 "sigproc-sp.aux" "sigproc-sp.bbl" "sigproc-sp" 1389210222
+["bibtex sigproc-sp"] 1389334415 "sigproc-sp.aux" "sigproc-sp.bbl" "sigproc-sp" 1389334650
   "/usr/local/texlive/2013/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "sigproc-sp.aux" 1389210222 4053 c5434a8aa477421e475c1744bdaae731 ""
+  "sigproc-sp.aux" 1389334646 4088 9009c415359f1caa7dc6fde032574499 ""
   "sigproc-sp.bcf" 0 -1 0 ""
-  "sigproc.bib" 1389206010 1492 045cff45096bc53833df7eca105d1ace ""
+  "sigproc.bib" 1389329612 12431 d22e0db357b4d7607ec9eee22b46fd9a ""
   (generated)
   "sigproc-sp.blg"
   "sigproc-sp.bbl"
-["pdflatex"] 1389210221 "sigproc-sp.tex" "sigproc-sp.pdf" "sigproc-sp" 1389210222
+["pdflatex"] 1389334645 "sigproc-sp.tex" "sigproc-sp.pdf" "sigproc-sp" 1389334650
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1303254447 7324 11d14f318d865f420e692d4e6c9c18c3 ""
@@ -18,7 +18,6 @@
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty" 1335995445 18425 775b341047ce304520cc7c11ca41392e ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty" 1335995445 19987 01cb2f3c1d21e5f05711b7fd50b17f2a ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/ae/t1aer.fd" 1191308783 1844 da911cbbb4e7e5dc2776545b8b9cbc06 ""
-  "/usr/local/texlive/2013/texmf-dist/tex/latex/ae/t1aett.fd" 1191308783 1265 104c75383e0b9b5fac7ca7880a6cdf30 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1359763108 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1359763108 13829 94730e64147574077f8ecfea9bb69af4 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd" 1359763108 961 6518c6525a34feb5e8250ffa91731cff ""
@@ -44,10 +43,10 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty" 1335995445 22417 c74ff4af6a1aa2b65d1924020edbbe11 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def" 1306616590 55368 3c8a0d99822330f2dfabc0dfb09ce897 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/soul/soul.sty" 1137110840 23636 c37eef0334dd2011d112d2040c11328f ""
-  "acm_proc_article-sp.cls" 1389206012 59629 49fc14f68a73f326183ff0d766bec0c2 ""
-  "sigproc-sp.aux" 1389210222 4053 c5434a8aa477421e475c1744bdaae731 ""
-  "sigproc-sp.bbl" 1389210112 1115 058311dd8dee5deb4162890794bfa669 "bibtex sigproc-sp"
-  "sigproc-sp.tex" 1389210221 40776 28746a9248cab15461d04edbe533bcd9 ""
+  "acm_proc_article-sp.cls" 1389287845 59629 49fc14f68a73f326183ff0d766bec0c2 ""
+  "sigproc-sp.aux" 1389334646 4088 9009c415359f1caa7dc6fde032574499 ""
+  "sigproc-sp.bbl" 1389334416 6005 c768e6e46585052f7fe9246af0f18597 "bibtex sigproc-sp"
+  "sigproc-sp.tex" 1389334645 38717 a875f4da6034c3156a9ae152c1d83c2f ""
   (generated)
   "flies-eps-converted-to.pdf"
   "sigproc-sp.aux"

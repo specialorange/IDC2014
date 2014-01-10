@@ -1,35 +1,173 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{bowman:reasoning}
-M.~Bowman, S.~K. Debray, and L.~L. Peterson.
-\newblock Reasoning about naming systems.
-\newblock {\em ACM Trans. Program. Lang. Syst.}, 15(5):795--825, November 1993.
+\bibitem{cs-astronomy}
+Computer science - wikiquote.
 
-\bibitem{braams:babel}
-J.~Braams.
-\newblock Babel, a multilingual style-option system for use with latex's
-  standard document styles.
-\newblock {\em TUGboat}, 12(2):291--301, June 1991.
+\bibitem{csprinciples}
+{C}{S} {P}rinciples.
 
-\bibitem{clark:pct}
-M.~Clark.
-\newblock Post congress tristesse.
-\newblock In {\em TeX90 Conference Proceedings}, pages 84--89. TeX Users Group,
-  March 1991.
+\bibitem{csunplugged}
+{C}{S} {U}nplugged.
 
-\bibitem{herlihy:methodology}
-M.~Herlihy.
-\newblock A methodology for implementing highly concurrent data objects.
-\newblock {\em ACM Trans. Program. Lang. Syst.}, 15(5):745--770, November 1993.
+\bibitem{operationalct}
+Operational definition of computational thinking of the international society
+  for technology in education (iste).
 
-\bibitem{Lamport:LaTeX}
-L.~Lamport.
-\newblock {\em LaTeX User's Guide and Document Reference Manual}.
-\newblock Addison-Wesley Publishing Company, Reading, Massachusetts, 1986.
+\bibitem{picassotiles3d}
+Picasso tiles 3d.
 
-\bibitem{salas:calculus}
-S.~Salas and E.~Hille.
-\newblock {\em Calculus: One and Several Variable}.
-\newblock John Wiley and Sons, New York, 1978.
+\bibitem{logo-readings}
+Readings from the ai lab.
+
+\bibitem{robotturtles}
+Robot turtles: The board game for little programmers.
+
+\bibitem{vtlongrange}
+Virginia tech long range plan.
+
+\bibitem{allan2010computational}
+W.~Allan, B.~Coulter, J.~Denner, J.~Erickson, I.~Lee, J.~Malyn-Smith, and
+  F.~Martin.
+\newblock Computational thinking for youth.
+\newblock {\em White Paper for the ITEST Small Working Group on Computational
+  Thinking (CT)}, 2010.
+
+\bibitem{barr2011bringing}
+V.~Barr and C.~Stephenson.
+\newblock Bringing computational thinking to k-12: what is involved and what is
+  the role of the computer science education community?
+\newblock {\em ACM Inroads}, 2(1):48--54, 2011.
+
+\bibitem{berland2011collaborative}
+M.~Berland and V.~R. Lee.
+\newblock Collaborative strategic board games as a site for distributed
+  computational thinking.
+\newblock {\em International Journal of Game-Based Learning}, 1(2):65, 2011.
+
+\bibitem{blackwell2008abstract}
+A.~F. Blackwell, L.~Church, and T.~Green.
+\newblock The abstract is `an enemy': Alternative perspectives to computational
+  thinking.
+\newblock {\em Submitted to PPIG}, 2008.
+
+\bibitem{brandt1972studying}
+R.~M. Brandt.
+\newblock {\em Studying behavior in natural settings}.
+\newblock Holt, Rinehart and Winston New York, 1972.
+
+\bibitem{brown1989situated}
+J.~S. Brown, A.~Collins, and P.~Duguid.
+\newblock Situated cognition and the culture of learning.
+\newblock {\em Educational researcher}, 18(1):32--42, 1989.
+
+\bibitem{national2010report}
+N.~R. Council.
+\newblock {\em Report of a Workshop on the Scope and Nature of Computational
+  Thinking}.
+\newblock National Academies Press, 2010.
+
+\bibitem{denning2003great}
+P.~J. Denning.
+\newblock Great principles of computing.
+\newblock {\em Communications of the ACM}, 46(11):15--20, 2003.
+
+\bibitem{driscoll2005psychology}
+M.~P. Driscoll and M.~P. Driscoll.
+\newblock Psychology of learning for instruction.
+\newblock 2005.
+
+\bibitem{eisenberg2002computationally}
+M.~Eisenberg, A.~Eisenberg, M.~Gross, K.~Kaowthumrong, N.~Lee, and W.~Lovett.
+\newblock Computationally-enhanced construction kits for children: Prototype
+  and principles.
+\newblock In {\em Proceedings of the Fifth International Conference of the
+  Learning Sciences}, pages 23--26, 2002.
+
+\bibitem{guzdial2003media}
+M.~Guzdial.
+\newblock A media computation course for non-majors.
+\newblock In {\em ACM SIGCSE Bulletin}, volume~35, pages 104--108. ACM, 2003.
+
+\bibitem{liebschner1992child}
+J.~Liebschner.
+\newblock {\em A child's work: Freedom and play in Froebel's educational theory
+  and practice}.
+\newblock Lutterworth Press Cambridge, 1992.
+
+\bibitem{malone1987making}
+T.~W. Malone and M.~R. Lepper.
+\newblock Making learning fun: A taxonomy of intrinsic motivations for
+  learning.
+\newblock {\em Aptitude, learning, and instruction}, 3:223--253, 1987.
+
+\bibitem{papert1980mindstorms}
+S.~Papert.
+\newblock {\em Mindstorms: Children, computers, and powerful ideas}.
+\newblock Basic Books, Inc., 1980.
+
+\bibitem{pausch1995alice}
+R.~Pausch, T.~Burnette, A.~Capeheart, M.~Conway, D.~Cosgrove, R.~DeLine,
+  J.~Durbin, R.~Gossweiler, S.~Koga, and J.~White.
+\newblock Alice: Rapid prototyping system for virtual reality.
+\newblock {\em IEEE Computer Graphics and Applications}, 15(3):8--11, 1995.
+
+\bibitem{raffle2004topobo}
+H.~S. Raffle, A.~J. Parkes, and H.~Ishii.
+\newblock Topobo: a constructive assembly system with kinetic memory.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 647--654. ACM, 2004.
+
+\bibitem{resnick1998digital}
+M.~Resnick, F.~Martin, R.~Berg, R.~Borovoy, V.~Colella, K.~Kramer, and
+  B.~Silverman.
+\newblock Digital manipulatives: new toys to think with.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 281--287. ACM Press/Addison-Wesley Publishing Co.,
+  1998.
+
+\bibitem{schweikardt2006roblocks}
+E.~Schweikardt and M.~D. Gross.
+\newblock roblocks: a robotic construction kit for mathematics and science
+  education.
+\newblock In {\em Proceedings of the 8th international conference on Multimodal
+  interfaces}, pages 72--75. ACM, 2006.
+
+\bibitem{shipman1999formality}
+F.~M. Shipman~III and C.~C. Marshall.
+\newblock Formality considered harmful: Experiences, emerging themes, and
+  directions on the use of formal representations in interactive systems.
+\newblock {\em Computer Supported Cooperative Work (CSCW)}, 8(4):333--352,
+  1999.
+
+\bibitem{turkle1990epistemological}
+S.~Turkle and S.~Papert.
+\newblock Epistemological pluralism: Styles and voices within the computer
+  culture.
+\newblock {\em Signs}, 16(1):128--157, 1990.
+
+\bibitem{weller2008escape}
+M.~P. Weller, E.~Y.-L. Do, and M.~D. Gross.
+\newblock Escape machine: teaching computational thinking with a tangible state
+  machine game.
+\newblock In {\em Proceedings of the 7th international conference on
+  Interaction design and children}, pages 282--289. ACM, 2008.
+
+\bibitem{wilensky2006thinking}
+U.~Wilensky and K.~Reisman.
+\newblock Thinking like a wolf, a sheep, or a firefly: Learning biology through
+  constructing and testing computational theories---an embodied modeling
+  approach.
+\newblock {\em Cognition and instruction}, 24(2):171--209, 2006.
+
+\bibitem{wing2006computational}
+J.~M. Wing.
+\newblock Computational thinking.
+\newblock {\em Communications of the ACM}, 49(3):33--35, 2006.
+
+\bibitem{wing2008computational}
+J.~M. Wing.
+\newblock Computational thinking and thinking about computing.
+\newblock {\em Philosophical Transactions of the Royal Society A: Mathematical,
+  Physical and Engineering Sciences}, 366(1881):3717--3725, 2008.
 
 \end{thebibliography}

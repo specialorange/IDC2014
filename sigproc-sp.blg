@@ -3,44 +3,71 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: sigproc-sp.aux
 The style file: abbrv.bst
 Database file #1: sigproc.bib
-You've used 6 entries,
+Warning--entry type for "operationalct" isn't style-file defined
+--line 40 of file sigproc.bib
+Warning--entry type for "picassotiles3d" isn't style-file defined
+--line 86 of file sigproc.bib
+Warning--entry type for "robotturtles" isn't style-file defined
+--line 94 of file sigproc.bib
+Warning--entry type for "csunplugged" isn't style-file defined
+--line 203 of file sigproc.bib
+Warning--entry type for "logo-readings" isn't style-file defined
+--line 234 of file sigproc.bib
+Warning--entry type for "cs-astronomy" isn't style-file defined
+--line 242 of file sigproc.bib
+Warning--entry type for "vtlongrange" isn't style-file defined
+--line 262 of file sigproc.bib
+Warning--entry type for "csprinciples" isn't style-file defined
+--line 298 of file sigproc.bib
+Warning--to sort, need author or key in csprinciples
+Warning--to sort, need author or key in vtlongrange
+Warning--to sort, need author or key in cs-astronomy
+Warning--to sort, need author or key in logo-readings
+Warning--to sort, need author or key in csunplugged
+Warning--to sort, need author or key in robotturtles
+Warning--to sort, need author or key in picassotiles3d
+Warning--to sort, need author or key in operationalct
+Warning--empty journal in driscoll2005psychology
+Warning--can't use both volume and number fields in guzdial2003media
+You've used 32 entries,
             2118 wiz_defined-function locations,
-            537 strings with 4454 characters,
-and the built_in function-call counts, 1813 in all, are:
-= -- 176
-> -- 59
-< -- 1
-+ -- 25
-- -- 18
-* -- 122
-:= -- 303
-add.period$ -- 19
-call.type$ -- 6
-change.case$ -- 25
+            659 strings with 8553 characters,
+and the built_in function-call counts, 9688 in all, are:
+= -- 945
+> -- 402
+< -- 7
++ -- 167
+- -- 132
+* -- 625
+:= -- 1507
+add.period$ -- 85
+call.type$ -- 32
+change.case$ -- 158
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 78
-empty$ -- 164
-format.name$ -- 18
-if$ -- 391
+cite$ -- 42
+duplicate$ -- 389
+empty$ -- 846
+format.name$ -- 132
+if$ -- 2086
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 8
-newline$ -- 33
-num.names$ -- 12
-pop$ -- 30
+int.to.str$ -- 32
+missing$ -- 28
+newline$ -- 147
+num.names$ -- 48
+pop$ -- 214
 preamble$ -- 1
-purify$ -- 21
+purify$ -- 130
 quote$ -- 0
-skip$ -- 49
+skip$ -- 314
 stack$ -- 0
-substring$ -- 114
-swap$ -- 14
-text.length$ -- 1
+substring$ -- 568
+swap$ -- 89
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
-warning$ -- 0
-while$ -- 17
-width$ -- 7
-write$ -- 69
+type$ -- 120
+warning$ -- 10
+while$ -- 87
+width$ -- 34
+write$ -- 304
+(There were 18 warnings)
