@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  10 JAN 2014 01:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  12 JAN 2014 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -287,7 +287,12 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 104.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (1.26794pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.76915pt too wide) in paragraph at lines 106--113
+\T1/aer/m/n/9 acy skill for the mod-ern world at par with the long-established
+ []
+
+
+Overfull \hbox (1.26794pt too wide) in paragraph at lines 117--118
 \T1/aer/m/n/9 H.4 [\T1/aer/bx/n/9 Information Sys-tems Ap-pli-ca-tions\T1/aer/m
 /n/9 ]: Mis-cel-la-neous;
  []
@@ -296,30 +301,38 @@ Overfull \hbox (1.26794pt too wide) in paragraph at lines 112--113
 
 
 ]
-[2] <boardgame.png, id=17, 2007.6606pt x 871.5762pt>
+Overfull \hbox (7.04106pt too wide) in paragraph at lines 169--169
+[]\secfnt EDUCATIONAL AND COM-PU-TA-TIONAL
+ []
+
+[2] <boardgame.png, id=17, 481.8pt x 209.1012pt>
 File: boardgame.png Graphic file (type png)
  <use boardgame.png>
-Package pdftex.def Info: boardgame.png used on input line 175.
-(pdftex.def)             Requested size: 241.91785pt x 105.0102pt.
+Package pdftex.def Info: boardgame.png used on input line 190.
+(pdftex.def)             Requested size: 241.91785pt x 104.99063pt.
 
-Overfull \hbox (1.91785pt too wide) in paragraph at lines 175--176
+Overfull \hbox (1.91785pt too wide) in paragraph at lines 190--191
 [][] 
  []
 
 [3 <./boardgame.png>]
-Overfull \hbox (1.71745pt too wide) in paragraph at lines 208--209
+Overfull \hbox (1.71745pt too wide) in paragraph at lines 223--224
 []\T1/aer/m/n/9 The com-pet-i-tive mode de-mands ef-fi-cient mod-el-ing skills 
 since
  []
 
 [4]
-Overfull \hbox (7.66223pt too wide) in paragraph at lines 240--241
-[]\T1/aer/m/n/9 Additionally, Chris and Pana-gi-o-tis, su-per-vis-ing an-other 
-group,
+Overfull \hbox (17.64847pt too wide) in paragraph at lines 259--259
+[]\secfnt INSTRUCTIONAL IN-TER-AC-TION DE-SIGN
+ []
+
+
+Overfull \hbox (26.51535pt too wide) in paragraph at lines 259--259
+\secfnt IN SUP-PORT OF COM-PU-TA-TIONAL THINK-
  []
 
 [5]
-Overfull \hbox (14.29008pt too wide) in paragraph at lines 247--248
+Overfull \hbox (14.29008pt too wide) in paragraph at lines 290--291
 \T1/aer/m/n/9 sional com-mu-ni-ties and un-til a more con-crete def-i-ni-tion e
 merges,
  []
@@ -333,7 +346,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ] (./sigproc-sp.aux) ) 
 Here is how much of TeX's memory you used:
  2986 strings out of 493315
- 38139 string characters out of 6137904
+ 38137 string characters out of 6137904
  105519 words of memory out of 5000000
  6362 multiletter control sequences out of 15000+600000
  50917 words of font info for 69 fonts, out of 8000000 for 9000
@@ -350,7 +363,7 @@ ocal/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sigproc-sp.pdf (7 pages, 11691326 bytes).
+Output written on sigproc-sp.pdf (7 pages, 980661 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
