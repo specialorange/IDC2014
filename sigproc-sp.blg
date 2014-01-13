@@ -4,21 +4,21 @@ The top-level auxiliary file: sigproc-sp.aux
 The style file: abbrv.bst
 Database file #1: sigproc.bib
 Warning--entry type for "operationalct" isn't style-file defined
---line 49 of file sigproc.bib
+--line 55 of file sigproc.bib
 Warning--entry type for "picassotiles3d" isn't style-file defined
---line 95 of file sigproc.bib
+--line 102 of file sigproc.bib
 Warning--entry type for "robotturtles" isn't style-file defined
---line 103 of file sigproc.bib
+--line 111 of file sigproc.bib
 Warning--entry type for "csunplugged" isn't style-file defined
---line 212 of file sigproc.bib
+--line 221 of file sigproc.bib
 Warning--entry type for "logo-readings" isn't style-file defined
---line 243 of file sigproc.bib
+--line 253 of file sigproc.bib
 Warning--entry type for "cs-astronomy" isn't style-file defined
---line 251 of file sigproc.bib
+--line 262 of file sigproc.bib
 Warning--entry type for "vtlongrange" isn't style-file defined
---line 271 of file sigproc.bib
+--line 283 of file sigproc.bib
 Warning--entry type for "csprinciples" isn't style-file defined
---line 307 of file sigproc.bib
+--line 320 of file sigproc.bib
 Warning--to sort, need author or key in csprinciples
 Warning--to sort, need author or key in vtlongrange
 Warning--to sort, need author or key in cs-astronomy
@@ -31,43 +31,43 @@ Warning--empty journal in driscoll2005psychology
 Warning--can't use both volume and number fields in guzdial2003media
 You've used 33 entries,
             2118 wiz_defined-function locations,
-            664 strings with 8633 characters,
-and the built_in function-call counts, 9898 in all, are:
-= -- 965
+            664 strings with 8644 characters,
+and the built_in function-call counts, 10033 in all, are:
+= -- 985
 > -- 409
-< -- 7
+< -- 8
 + -- 170
 - -- 134
-* -- 633
-:= -- 1542
+* -- 642
+:= -- 1556
 add.period$ -- 88
 call.type$ -- 33
-change.case$ -- 162
+change.case$ -- 163
 chr.to.int$ -- 0
 cite$ -- 43
-duplicate$ -- 396
-empty$ -- 868
+duplicate$ -- 402
+empty$ -- 875
 format.name$ -- 134
-if$ -- 2132
+if$ -- 2166
 int.to.chr$ -- 0
 int.to.str$ -- 33
-missing$ -- 28
+missing$ -- 27
 newline$ -- 152
 num.names$ -- 50
-pop$ -- 222
+pop$ -- 218
 preamble$ -- 1
 purify$ -- 133
 quote$ -- 0
-skip$ -- 321
+skip$ -- 331
 stack$ -- 0
-substring$ -- 573
-swap$ -- 90
-text.length$ -- 7
+substring$ -- 597
+swap$ -- 97
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 124
+type$ -- 126
 warning$ -- 10
-while$ -- 89
+while$ -- 92
 width$ -- 35
-write$ -- 314
+write$ -- 315
 (There were 18 warnings)

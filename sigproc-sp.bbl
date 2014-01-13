@@ -50,11 +50,6 @@ A.~F. Blackwell, L.~Church, and T.~Green.
   thinking.
 \newblock {\em Submitted to PPIG}, 2008.
 
-\bibitem{brandt1972studying}
-R.~M. Brandt.
-\newblock {\em Studying behavior in natural settings}.
-\newblock Holt, Rinehart and Winston New York, 1972.
-
 \bibitem{brown1989situated}
 J.~S. Brown, A.~Collins, and P.~Duguid.
 \newblock Situated cognition and the culture of learning.
@@ -149,6 +144,12 @@ S.~Turkle and S.~Papert.
 \newblock Epistemological pluralism: Styles and voices within the computer
   culture.
 \newblock {\em Signs}, 16(1):128--157, 1990.
+
+\bibitem{vygotsky1987zone}
+L.~Vygotsky.
+\newblock Zone of proximal development.
+\newblock {\em Mind in society: The development of higher psychological
+  processes}, pages 52--91, 1987.
 
 \bibitem{weller2008escape}
 M.~P. Weller, E.~Y.-L. Do, and M.~D. Gross.

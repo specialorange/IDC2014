@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  12 JAN 2014 13:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  12 JAN 2014 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -344,7 +344,12 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 107.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (1.26794pt too wide) in paragraph at lines 115--116
+Overfull \hbox (3.76915pt too wide) in paragraph at lines 109--116
+\T1/aer/m/n/9 acy skill for the mod-ern world at par with the long-established
+ []
+
+
+Overfull \hbox (1.26794pt too wide) in paragraph at lines 120--121
 \T1/aer/m/n/9 H.4 [\T1/aer/bx/n/9 Information Sys-tems Ap-pli-ca-tions\T1/aer/m
 /n/9 ]: Mis-cel-la-neous;
  []
@@ -353,30 +358,38 @@ Overfull \hbox (1.26794pt too wide) in paragraph at lines 115--116
 
 
 ]
+Overfull \hbox (7.04106pt too wide) in paragraph at lines 172--172
+[]\secfnt EDUCATIONAL AND COM-PU-TA-TIONAL
+ []
+
 [2] <boardgame.png, id=17, 481.8pt x 209.1012pt>
 File: boardgame.png Graphic file (type png)
  <use boardgame.png>
-Package pdftex.def Info: boardgame.png used on input line 178.
+Package pdftex.def Info: boardgame.png used on input line 193.
 (pdftex.def)             Requested size: 241.91785pt x 104.99063pt.
 
-Overfull \hbox (1.91785pt too wide) in paragraph at lines 178--179
+Overfull \hbox (1.91785pt too wide) in paragraph at lines 193--194
 [][] 
  []
 
 [3 <./boardgame.png>]
-Overfull \hbox (1.71745pt too wide) in paragraph at lines 211--212
+Overfull \hbox (1.71745pt too wide) in paragraph at lines 226--227
 []\T1/aer/m/n/9 The com-pet-i-tive mode de-mands ef-fi-cient mod-el-ing skills 
 since
  []
 
 [4]
-Overfull \hbox (7.66223pt too wide) in paragraph at lines 243--244
-[]\T1/aer/m/n/9 Additionally, Chris and Pana-gi-o-tis, su-per-vis-ing an-other 
-group,
+Overfull \hbox (17.64847pt too wide) in paragraph at lines 263--263
+[]\secfnt INSTRUCTIONAL IN-TER-AC-TION DE-SIGN
+ []
+
+
+Overfull \hbox (26.51535pt too wide) in paragraph at lines 263--263
+\secfnt IN SUP-PORT OF COM-PU-TA-TIONAL THINK-
  []
 
 [5]
-Overfull \hbox (14.29008pt too wide) in paragraph at lines 250--251
+Overfull \hbox (14.29008pt too wide) in paragraph at lines 294--295
 \T1/aer/m/n/9 sional com-mu-ni-ties and un-til a more con-crete def-i-ni-tion e
 merges,
  []
@@ -384,567 +397,567 @@ merges,
 [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
 []|\T1/aer/m/n/5 Artistic Cre-
  []
 
 
-Overfull \hbox (10.49165pt too wide) in paragraph at lines 263--263
+Overfull \hbox (10.49165pt too wide) in paragraph at lines 307--307
 []|\T1/aer/m/n/5 Risk/Reward
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
 []|\T1/aer/m/n/5 Situational Turn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
 []|\T1/aer/m/n/5 Shared
  []
 
 
-Overfull \hbox (3.64671pt too wide) in paragraph at lines 263--263
+Overfull \hbox (3.64671pt too wide) in paragraph at lines 307--307
 []|\T1/aer/m/n/5 Simulation| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 []|\T1/aer/m/n/5 Settlers Of
  []
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 271--271
+Underfull \hbox (badness 3118) in paragraph at lines 315--315
 []|\T1/aer/m/n/5 Robot Tur-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []|\T1/aer/m/n/5 Ticket To
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
 []|\T1/aer/m/n/5 YES, but even
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
 \T1/aer/m/n/5 strong com-put-ers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 []|\T1/aer/m/n/5 nMotion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 []|\T1/aer/m/n/5 Weapons,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 tar-gets,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 am-mu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 ni-tion,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 (with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 con-
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 312--312
+Underfull \hbox (badness 1558) in paragraph at lines 356--356
 []|\T1/aer/m/n/5 Methods vs mod-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 The dif-fer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 ent stages
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 (play|design|test)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 ab-strac-tions, es-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 pe-cially across
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 []|\T1/aer/m/n/5 EASY: Aim,
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 312--312
+Underfull \hbox (badness 6220) in paragraph at lines 356--356
 \T1/aer/m/n/5 prime, fire, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 DIFFICULT:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 switch peo-ple,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 tion(parameters)
  []
 
 
-Underfull \hbox (badness 7256) in paragraph at lines 312--312
+Underfull \hbox (badness 7256) in paragraph at lines 356--356
 []|\T1/aer/m/n/5 Less so, but
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 cre-ate their
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 own weapon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 from meth-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 Or are al-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 []|\T1/aer/m/n/5 Starting with a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 the com-po-nents
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 312--312
+Underfull \hbox (badness 5847) in paragraph at lines 356--356
 \T1/aer/m/n/5 Sev-eral lay-ers of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 dis-sec-tion will
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 312--312
+Underfull \hbox (badness 1603) in paragraph at lines 356--356
 \T1/aer/m/n/5 need to oc-cur to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 []|\T1/aer/m/n/5 Given a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 lim-ited
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 num-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 ber of
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 312--312
+Underfull \hbox (badness 2443) in paragraph at lines 356--356
 \T1/aer/m/n/5 stronger meth-ods,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 []|\T1/aer/m/n/5 Team
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 based
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 com-pe-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 []|\T1/aer/m/n/5 There are
  []
 
 
-Underfull \hbox (badness 5939) in paragraph at lines 312--312
+Underfull \hbox (badness 5939) in paragraph at lines 356--356
 \T1/aer/m/n/5 pat-terns in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 the trial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 rec-og-niz-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 The ef-fec-tive-ness of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 an-other team mem-
  []
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 312--312
+Underfull \hbox (badness 3068) in paragraph at lines 356--356
 \T1/aer/m/n/5 ber ex-e-cut-ing the task
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 312--312
+Underfull \hbox (badness 4316) in paragraph at lines 356--356
 \T1/aer/m/n/5 with-out any fol-low up
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/aer/m/n/5 The team's col-lec-tive
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 312--312
+Underfull \hbox (badness 1178) in paragraph at lines 356--356
 \T1/aer/m/n/5 sessed on an-other team
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 312--312
+Underfull \hbox (badness 4927) in paragraph at lines 356--356
 \T1/aer/m/n/5 phase of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
 []|\T1/aer/m/n/5 Sorting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
 \T1/aer/m/n/5 height of
  []
 
 
-Overfull \hbox (3.22021pt too wide) in paragraph at lines 318--318
+Overfull \hbox (3.22021pt too wide) in paragraph at lines 362--362
 []|\T1/aer/m/n/5 Collaborative
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 320--320
+Underfull \hbox (badness 4013) in paragraph at lines 364--364
 []|\T1/aer/m/n/5 Mixing wa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
 \T1/aer/m/n/5 ter Bot-tles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
 \T1/aer/m/n/5 (from Die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
 []|\T1/aer/m/n/5 Bi Di-rec-
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 322--322
+Underfull \hbox (badness 6876) in paragraph at lines 366--366
 \T1/aer/m/n/5 tional Mad
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 []|\T1/aer/m/n/5 Rab-Bit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 []|\T1/aer/m/n/5 The
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 wooden
  []
 
 
-Underfull \hbox (badness 5622) in paragraph at lines 324--324
+Underfull \hbox (badness 5622) in paragraph at lines 368--368
 \T1/aer/m/n/5 bits and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 des-ig-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 nated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 path
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 []|\T1/aer/m/n/5 Creating new
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 []|\T1/aer/m/n/5 path must be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 bro-ken down
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 into chunks and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 sep-a-rate mod-els
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 con-structed for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 []|\T1/aer/m/n/5 Given a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 time re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 stric-tion,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 strate-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 []|\T1/aer/m/n/5 Players
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 can
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 choose
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 to work
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 324--324
+Underfull \hbox (badness 2529) in paragraph at lines 368--368
 \T1/aer/m/n/5 ei-ther in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 dif-fer-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 parts
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 of the
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 324--324
+Underfull \hbox (badness 1975) in paragraph at lines 368--368
 \T1/aer/m/n/5 board or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 []|\T1/aer/m/n/5 Bit com-bi-
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 324--324
+Underfull \hbox (badness 2318) in paragraph at lines 368--368
 \T1/aer/m/n/5 na-tions, by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 an-a-lyz-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 the path,
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 324--324
+Underfull \hbox (badness 1701) in paragraph at lines 368--368
 []|\T1/aer/m/n/5 Reusability of paths or
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 324--324
+Underfull \hbox (badness 1789) in paragraph at lines 368--368
 \T1/aer/m/n/5 awarded for us-ing such
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 324--324
+Underfull \hbox (badness 3039) in paragraph at lines 368--368
 \T1/aer/m/n/5 get bet-ter at this 'al-
  []
 
 
-Underfull \hbox (badness 7944) in paragraph at lines 324--324
+Underfull \hbox (badness 7944) in paragraph at lines 368--368
 \T1/aer/m/n/5 go-rith-mic' ap-proach of
  []
 
 
-Overfull \hbox (4.63951pt too wide) in paragraph at lines 324--324
+Overfull \hbox (4.63951pt too wide) in paragraph at lines 368--368
 []|\T1/aer/m/n/5 Representational
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 324--324
+Underfull \hbox (badness 1533) in paragraph at lines 368--368
 \T1/aer/m/n/5 de-mands men-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 tal ro-ta-tions
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 324--324
+Underfull \hbox (badness 6284) in paragraph at lines 368--368
 \T1/aer/m/n/5 of 3D blocks
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 to match a
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 324--324
+Underfull \hbox (badness 1009) in paragraph at lines 368--368
 \T1/aer/m/n/5 cor-rect men-tal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 rep-re-sen-ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 tion (shape
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 \T1/aer/m/n/5 & po-lar-ity
  []
 
 
-Overfull \hbox (10.07617pt too wide) in paragraph at lines 259--326
+Overfull \hbox (10.07617pt too wide) in paragraph at lines 303--370
 []| []|  
  []
 
@@ -956,7 +969,7 @@ Overfull \hbox (10.07617pt too wide) in paragraph at lines 259--326
 ] (./sigproc-sp.aux) ) 
 Here is how much of TeX's memory you used:
  3707 strings out of 493315
- 46710 string characters out of 6137904
+ 46708 string characters out of 6137904
  158632 words of memory out of 5000000
  7056 multiletter control sequences out of 15000+600000
  53057 words of font info for 72 fonts, out of 8000000 for 9000
@@ -975,7 +988,7 @@ texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on sigproc-sp.pdf (8 pages, 1012841 bytes).
+Output written on sigproc-sp.pdf (8 pages, 1013915 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
