@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex sigproc-sp"] 1389580396 "sigproc-sp.aux" "sigproc-sp.bbl" "sigproc-sp" 1389580398
+["bibtex sigproc-sp"] 1389587929 "sigproc-sp.aux" "sigproc-sp.bbl" "sigproc-sp" 1389588722
   "/usr/local/texlive/2013/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "sigproc-sp.aux" 1389580398 4438 51086467a35328e7da0abed830091392 ""
+  "sigproc-sp.aux" 1389588722 4668 2dc19bfaf449e68bdf8a86e8e1c7a612 ""
   "sigproc-sp.bcf" 0 -1 0 ""
-  "sigproc.bib" 1389580255 13596 6d9f03c72f8482ca40780e40796e0534 ""
+  "sigproc.bib" 1389586439 13832 53bbf9c691bcb9a2f5af80193ecf9aef ""
   (generated)
   "sigproc-sp.blg"
   "sigproc-sp.bbl"
-["pdflatex"] 1389580397 "sigproc-sp.tex" "sigproc-sp.pdf" "sigproc-sp" 1389580398
+["pdflatex"] 1389588721 "sigproc-sp.tex" "sigproc-sp.pdf" "sigproc-sp" 1389588722
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1303254447 7324 11d14f318d865f420e692d4e6c9c18c3 ""
@@ -52,9 +52,9 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty" 1169481954 55224 a43bab84e0ac5e6efcaf9a98bde73a94 ""
   "acm_proc_article-sp.cls" 1389206012 59629 49fc14f68a73f326183ff0d766bec0c2 ""
   "boardgame.png" 1389336754 806730 b259039825d3a08ba42e5d83c8cd2c7f ""
-  "sigproc-sp.aux" 1389580398 4438 51086467a35328e7da0abed830091392 ""
-  "sigproc-sp.bbl" 1389580397 6150 a1787bdcc0b6114de8573fddef1c3604 "bibtex sigproc-sp"
-  "sigproc-sp.tex" 1389580167 51202 e3e046fce92c37db02fb5a5faa8229ce ""
+  "sigproc-sp.aux" 1389588722 4668 2dc19bfaf449e68bdf8a86e8e1c7a612 ""
+  "sigproc-sp.bbl" 1389587929 6240 cab0263cefc7934d1eb1f7e36a29cc85 "bibtex sigproc-sp"
+  "sigproc-sp.tex" 1389588721 51842 71f6bba60e895227f681494d451c5681 ""
   (generated)
   "flies-eps-converted-to.pdf"
   "sigproc-sp.aux"
