@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex sigproc-sp"] 1389566071 "sigproc-sp.aux" "sigproc-sp.bbl" "sigproc-sp" 1389566071
+["bibtex sigproc-sp"] 1389566071 "sigproc-sp.aux" "sigproc-sp.bbl" "sigproc-sp" 1389634555
   "/usr/local/texlive/2013/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "sigproc-sp.aux" 1389565129 4352 88c9720cec1d2966469b5c734ddfc506 ""
+  "sigproc-sp.aux" 1389634555 4352 88c9720cec1d2966469b5c734ddfc506 ""
   "sigproc-sp.bcf" 0 -1 0 ""
   "sigproc.bib" 1389566069 13346 7d25f4ae4aeb54d23aae66cb855dfb01 ""
   (generated)
   "sigproc-sp.blg"
   "sigproc-sp.bbl"
-["pdflatex"] 1389565128 "sigproc-sp.tex" "sigproc-sp.pdf" "sigproc-sp" 1389566071
+["pdflatex"] 1389634554 "sigproc-sp.tex" "sigproc-sp.pdf" "sigproc-sp" 1389634555
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1303254447 7324 11d14f318d865f420e692d4e6c9c18c3 ""
@@ -45,9 +45,9 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/soul/soul.sty" 1137110840 23636 c37eef0334dd2011d112d2040c11328f ""
   "acm_proc_article-sp.cls" 1389287845 59629 49fc14f68a73f326183ff0d766bec0c2 ""
   "boardgame.png" 1389361364 806730 b259039825d3a08ba42e5d83c8cd2c7f ""
-  "sigproc-sp.aux" 1389565129 4352 88c9720cec1d2966469b5c734ddfc506 ""
+  "sigproc-sp.aux" 1389634555 4352 88c9720cec1d2966469b5c734ddfc506 ""
   "sigproc-sp.bbl" 1389566071 6040 8f06402e05ca3a5d4b96ceb94b040728 "bibtex sigproc-sp"
-  "sigproc-sp.tex" 1389566066 44602 d165a970bd6f3002870ec95ca4edbc39 ""
+  "sigproc-sp.tex" 1389634553 44600 d3cdea055882989982b24f3977cc8fb1 ""
   (generated)
   "flies-eps-converted-to.pdf"
   "sigproc-sp.aux"
