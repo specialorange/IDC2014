@@ -4,21 +4,22 @@ The top-level auxiliary file: sigproc-sp.aux
 The style file: abbrv.bst
 Database file #1: sigproc.bib
 Warning--entry type for "operationalct" isn't style-file defined
---line 50 of file sigproc.bib
+--line 64 of file sigproc.bib
 Warning--entry type for "picassotiles3d" isn't style-file defined
---line 97 of file sigproc.bib
+--line 111 of file sigproc.bib
 Warning--entry type for "robotturtles" isn't style-file defined
---line 106 of file sigproc.bib
+--line 120 of file sigproc.bib
 Warning--entry type for "csunplugged" isn't style-file defined
---line 216 of file sigproc.bib
+--line 230 of file sigproc.bib
 Warning--entry type for "logo-readings" isn't style-file defined
---line 248 of file sigproc.bib
+--line 262 of file sigproc.bib
 Warning--entry type for "cs-astronomy" isn't style-file defined
---line 257 of file sigproc.bib
+--line 271 of file sigproc.bib
 Warning--entry type for "vtlongrange" isn't style-file defined
---line 278 of file sigproc.bib
+--line 292 of file sigproc.bib
 Warning--entry type for "csprinciples" isn't style-file defined
---line 315 of file sigproc.bib
+--line 329 of file sigproc.bib
+Warning--I didn't find a database entry for "NEEDED"
 Warning--to sort, need author or key in csprinciples
 Warning--to sort, need author or key in vtlongrange
 Warning--to sort, need author or key in cs-astronomy
@@ -29,45 +30,46 @@ Warning--to sort, need author or key in picassotiles3d
 Warning--to sort, need author or key in operationalct
 Warning--empty journal in driscoll2005psychology
 Warning--can't use both volume and number fields in guzdial2003media
-You've used 32 entries,
+Warning--empty note in webster2013quote
+You've used 34 entries,
             2118 wiz_defined-function locations,
-            659 strings with 8564 characters,
-and the built_in function-call counts, 9823 in all, are:
-= -- 965
-> -- 402
+            671 strings with 8709 characters,
+and the built_in function-call counts, 10210 in all, are:
+= -- 1003
+> -- 416
 < -- 8
-+ -- 167
-- -- 132
-* -- 634
-:= -- 1521
-add.period$ -- 85
-call.type$ -- 32
-change.case$ -- 159
++ -- 173
+- -- 136
+* -- 652
+:= -- 1592
+add.period$ -- 91
+call.type$ -- 34
+change.case$ -- 167
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 395
-empty$ -- 853
-format.name$ -- 132
-if$ -- 2120
+cite$ -- 45
+duplicate$ -- 408
+empty$ -- 886
+format.name$ -- 136
+if$ -- 2198
 int.to.chr$ -- 0
-int.to.str$ -- 32
+int.to.str$ -- 34
 missing$ -- 27
-newline$ -- 147
-num.names$ -- 48
-pop$ -- 210
+newline$ -- 157
+num.names$ -- 52
+pop$ -- 220
 preamble$ -- 1
-purify$ -- 130
+purify$ -- 136
 quote$ -- 0
-skip$ -- 324
+skip$ -- 336
 stack$ -- 0
-substring$ -- 592
-swap$ -- 96
+substring$ -- 602
+swap$ -- 97
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 122
-warning$ -- 10
-while$ -- 90
-width$ -- 34
-write$ -- 305
-(There were 18 warnings)
+type$ -- 130
+warning$ -- 11
+while$ -- 94
+width$ -- 36
+write$ -- 324
+(There were 20 warnings)
