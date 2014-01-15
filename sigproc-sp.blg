@@ -3,24 +3,23 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: sigproc-sp.aux
 The style file: abbrv.bst
 Database file #1: sigproc.bib
-Warning--entry type for "NSFCE21" isn't style-file defined
---line 9 of file sigproc.bib
 Warning--entry type for "operationalct" isn't style-file defined
---line 75 of file sigproc.bib
+--line 64 of file sigproc.bib
 Warning--entry type for "picassotiles3d" isn't style-file defined
---line 122 of file sigproc.bib
+--line 111 of file sigproc.bib
 Warning--entry type for "robotturtles" isn't style-file defined
---line 131 of file sigproc.bib
+--line 120 of file sigproc.bib
 Warning--entry type for "csunplugged" isn't style-file defined
---line 241 of file sigproc.bib
+--line 230 of file sigproc.bib
 Warning--entry type for "logo-readings" isn't style-file defined
---line 273 of file sigproc.bib
+--line 262 of file sigproc.bib
 Warning--entry type for "cs-astronomy" isn't style-file defined
---line 282 of file sigproc.bib
+--line 271 of file sigproc.bib
 Warning--entry type for "vtlongrange" isn't style-file defined
---line 303 of file sigproc.bib
+--line 292 of file sigproc.bib
 Warning--entry type for "csprinciples" isn't style-file defined
---line 340 of file sigproc.bib
+--line 329 of file sigproc.bib
+Warning--I didn't find a database entry for "NEEDED"
 Warning--to sort, need author or key in csprinciples
 Warning--to sort, need author or key in vtlongrange
 Warning--to sort, need author or key in cs-astronomy
@@ -29,56 +28,48 @@ Warning--to sort, need author or key in csunplugged
 Warning--to sort, need author or key in robotturtles
 Warning--to sort, need author or key in picassotiles3d
 Warning--to sort, need author or key in operationalct
-Too many commas in name 1 of "Deborah Tatar, Dennis Kafura, Steve Harrison, Manuel Perez, Chris Corallo" for entry NSFCE21
-while executing---line 1049 of file abbrv.bst
-Too many commas in name 1 of "Deborah Tatar, Dennis Kafura, Steve Harrison, Manuel Perez, Chris Corallo" for entry NSFCE21
-while executing---line 1049 of file abbrv.bst
-Too many commas in name 1 of "Deborah Tatar, Dennis Kafura, Steve Harrison, Manuel Perez, Chris Corallo" for entry NSFCE21
-while executing---line 1090 of file abbrv.bst
-Too many commas in name 1 of "Deborah Tatar, Dennis Kafura, Steve Harrison, Manuel Perez, Chris Corallo" for entry NSFCE21
-while executing---line 1090 of file abbrv.bst
 Warning--empty journal in driscoll2005psychology
 Warning--can't use both volume and number fields in guzdial2003media
 Warning--empty note in webster2013quote
 You've used 35 entries,
             2118 wiz_defined-function locations,
-            673 strings with 8790 characters,
-and the built_in function-call counts, 10397 in all, are:
-= -- 1017
+            676 strings with 8825 characters,
+and the built_in function-call counts, 10425 in all, are:
+= -- 1022
 > -- 423
 < -- 8
 + -- 176
 - -- 138
 * -- 660
-:= -- 1621
-add.period$ -- 92
+:= -- 1630
+add.period$ -- 94
 call.type$ -- 35
 change.case$ -- 170
 chr.to.int$ -- 0
 cite$ -- 46
-duplicate$ -- 415
+duplicate$ -- 420
 empty$ -- 908
 format.name$ -- 138
-if$ -- 2238
+if$ -- 2244
 int.to.chr$ -- 0
 int.to.str$ -- 35
-missing$ -- 27
-newline$ -- 160
+missing$ -- 29
+newline$ -- 162
 num.names$ -- 54
-pop$ -- 230
+pop$ -- 228
 preamble$ -- 1
 purify$ -- 139
 quote$ -- 0
-skip$ -- 345
+skip$ -- 342
 stack$ -- 0
 substring$ -- 607
 swap$ -- 98
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 134
+type$ -- 132
 warning$ -- 11
 while$ -- 96
 width$ -- 37
-write$ -- 330
-(There were 4 error messages)
+write$ -- 334
+(There were 20 warnings)
