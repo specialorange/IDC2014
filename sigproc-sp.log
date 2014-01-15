@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 JAN 2014 09:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  15 JAN 2014 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -391,10 +391,6 @@ Overfull \hbox (14.29008pt too wide) in paragraph at lines 391--392
 \T1/aer/m/n/9 sional com-mu-ni-ties and un-til a more con-crete def-i-ni-tion e
 merges,
  []
-
-
-LaTeX Warning: Citation `NEEDED' on page \thepage  undefined on input line 398.
-
 
 [6]
 Underfull \hbox (badness 10000) in paragraph at lines 408--408
@@ -984,8 +980,8 @@ Overfull \hbox (10.07617pt too wide) in paragraph at lines 404--472
 ] (./sigproc-sp.aux) ) 
 Here is how much of TeX's memory you used:
  3708 strings out of 493315
- 46749 string characters out of 6137904
- 158644 words of memory out of 5000000
+ 46750 string characters out of 6137904
+ 158648 words of memory out of 5000000
  7060 multiletter control sequences out of 15000+600000
  50904 words of font info for 69 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1002,7 +998,7 @@ al/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sigproc-sp.pdf (8 pages, 1008509 bytes).
+Output written on sigproc-sp.pdf (8 pages, 1008008 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
