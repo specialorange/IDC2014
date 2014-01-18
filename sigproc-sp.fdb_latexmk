@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex sigproc-sp"] 1389803851 "sigproc-sp.aux" "sigproc-sp.bbl" "sigproc-sp" 1389804339
+["bibtex sigproc-sp"] 1389811447 "sigproc-sp.aux" "sigproc-sp.bbl" "sigproc-sp" 1389811608
   "/usr/local/texlive/2013/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "sigproc-sp.aux" 1389804338 7931 161b9d35ac0d2505128489f5cea4bf9c ""
+  "sigproc-sp.aux" 1389811607 8195 b04feb873140ef2c748545c22a4b7ac7 ""
   "sigproc-sp.bcf" 0 -1 0 ""
-  "sigproc.bib" 1389740776 13832 53bbf9c691bcb9a2f5af80193ecf9aef ""
+  "sigproc.bib" 1389803570 14362 36a1135152d899404cb03356a30dee57 ""
   (generated)
   "sigproc-sp.blg"
   "sigproc-sp.bbl"
-["pdflatex"] 1389804338 "sigproc-sp.tex" "sigproc-sp.pdf" "sigproc-sp" 1389804339
+["pdflatex"] 1389811607 "sigproc-sp.tex" "sigproc-sp.pdf" "sigproc-sp" 1389811608
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
@@ -60,12 +60,12 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/tools/tabularx.sty" 1254151720 6076 90ca6002d5df607cc27699a4af5ff84e ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty" 1264379145 21932 e3a9cf32ee9b853b42be14c2f25b873c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty" 1169481954 55224 a43bab84e0ac5e6efcaf9a98bde73a94 ""
-  "acm_proc_article-sp.cls" 1389287845 59629 49fc14f68a73f326183ff0d766bec0c2 ""
-  "boardgame.png" 1389361364 806730 b259039825d3a08ba42e5d83c8cd2c7f ""
-  "sigproc-sp.aux" 1389804338 7931 161b9d35ac0d2505128489f5cea4bf9c ""
-  "sigproc-sp.bbl" 1389803851 6392 a45743d0e6068c488109608c8c43ac0f "bibtex sigproc-sp"
-  "sigproc-sp.out" 1389804338 1582 eda11fcb0802e56a06811486a4dc832f ""
-  "sigproc-sp.tex" 1389804336 53262 e26e300fac437ce9248fd6df233f1449 ""
+  "acm_proc_article-sp.cls" 1389206012 59629 49fc14f68a73f326183ff0d766bec0c2 ""
+  "boardgame.png" 1389336754 806730 b259039825d3a08ba42e5d83c8cd2c7f ""
+  "sigproc-sp.aux" 1389811607 8195 b04feb873140ef2c748545c22a4b7ac7 ""
+  "sigproc-sp.bbl" 1389811448 6612 1060ea6483027cb28dc2188feb2579d2 "bibtex sigproc-sp"
+  "sigproc-sp.out" 1389811607 1600 fdc94a0c6ba76a1a85f52eed8f9a4361 ""
+  "sigproc-sp.tex" 1389811606 55818 df11c6b7ccea234073cda68ffbb9d188 ""
   (generated)
   "flies-eps-converted-to.pdf"
   "sigproc-sp.aux"
