@@ -152,17 +152,22 @@ Rather than asking educators to learn yet another subject, and try to squeeze it
 
 \section{Computational Thinking}
 \label{sec:computational_thinking}
-The research around CT is divergent in its definition.
-This is in part due to the variety of research agendas that are served by work on CT.
-While certainly different research agendas might simultaneously be served by a single pursuit, this at least introduces tensions. 
-
-\begin{samepage}
-Our working definition is as follows: 
-\begin{quotation}
-Computational Thinking (CT) involves using cognitive skills to represent abstracted modeling, construct and evaluate processes, and apply appropriate strategies to enable us to interact in structured and creative problem-solving techniques to address problems and assumptions.
-Additionally, a computational thinker reflects on how we are affected by the computational artifacts with which we (must) interact.
-\end{quotation}
-\end{samepage}
+In search of a widely accepted CT definition for use while developing our game we chose the Operational Definition of Computational Thinking for K–12 Education by the International Society for Technology in Education (ISTE) \cite{operationalct}. 
+We thought this to be an appropriate definition due its relevance to our target group (a large part of research on CT is being done with college-level students), but also its clear approach on the expectations, skills, and attitudes involved. 
+According to this definition, ``CT is a problem-solving process that includes (but is not limited to) the following characteristics'': 
+\begin{itemize}
+  \item{Formulating problems in a way that enables us to use a computer and other tools to help solve them}
+  \item{Logically organizing and analyzing data}
+  \item{Representing data through abstractions such as models and simulations}
+  \item{Automating solutions through algorithmic thinking (a series of ordered steps)}
+  \item{Identifying, analyzing, and implementing possible solutions with the goal of achieving the most efficient and effective combination of steps and resources}
+  \item{Generalizing and transferring this problem solving process to a wide variety of problems}
+\end{itemize}
+While our group, like many researchers before us, consider abstraction to be a critical part of CT, we believe that it is necessary to simultaneously teach the dangers of abstraction. 
+In line with Blackwell, et al., we agree that abstraction might be ``antagonistic to reasonable human concerns''\cite{blackwell2008abstract}. 
+Along the same lines, Turkle and Papert have argued long ago that ``concrete and personal approaches'' to computing should not be downplayed in favor of formal and ``abstract approaches'', nor should they be dismissed as more inferior \cite{turkle1990epistemological}. 
+Their thesis, based on ethnographic and psychology investigations, aligns well with the theory of situated learning which postulates that people learn contextually, by being actively engaged in authentic (learning) activities, and not in the decontextualized and abstract manner of formal education \cite{brown1989situated}. 
+Although we do not abolish abstraction altogether, we did not consider it an important element of teaching CT, especially for our target group.
 
 \subsection{Recruitment of Computer Scientists}
 \label{sec:recruitment}
@@ -282,17 +287,7 @@ Level A utilized all 29 pieces and all 4 enemies; we have made two variations, o
 \label{sec:strategies}
 % Training - Scaffolding
 In order to help players understand the game mechanics and the importance of the different piece properties and how they affect completing the board effectively, we suggest a training session preceding the actual gameplay.
-The session's purpose is to scaffold the players' understanding of how putting the pieces together allows them to construct different shapes and satisfy the activity objective.
-
-Scaffolding includes levels of increasing difficulty, starting from making a single block (comprised of two bits) and moving on to more complicated shapes.
-At some points they will have the option to construct the different shapes using more than one combination of bits, and will have to take into account other piece properties and examine the implications of their choices.
-This mental modeling of the different affordances of each piece and the possible blocks it can construct will enable them to be more efficient in the actual activities, without demanding extra cognitive load to process them during game play. 
-
-Another idea to aid the bit selection and usage process is to have a separate ``cheat sheet'' with all pieces and their inventory count, next to the actual game boards.
-Players can cross out any pieces that have been used with an erasable marker in order to keep track of what has been used and what is still available.
-This cheat sheet can be used during the initial sessions where players are learning the available bits and practicing with the strategies of putting them together.
-Then, these mental aids can be progressively removed, letting the users depend on their ability to recognize the physical pieces.
-This is a common process of scaffolding in instructional design, also called fading, because the additional information (scaffold) is removed (faded) over time \cite{driscoll2005psychology}.
+The session's purpose is to scaffold the players' understanding of how putting the pieces together allows them to construct different shapes and satisfy the activity objective. This need derived from our informal evaluation in a primary school and is described in more detail under the Instructional Design section.
 
 The possible suggested activities for teaching CT with the game are described in more detail in the section that follows, although we understand that there are many variations that can derive from the suggested ones.
 
@@ -357,7 +352,7 @@ Additionally, the game supports all dispositions and attitudes that are essentia
        \item \textbf{Persistence in working with difficult problems}:
        deriving from the previous attitude, students are called to overcome initial frustration and persist in finding the solution. Our observations verified this point, since both teams finished the game with one wrong bit placement, but still persevered to start over and get the whole path completed correctly.
        \item \textbf{Tolerance for ambiguity}: 
-       All three of the suggested play strategies include some degree of ambiguity deriving from either the complexity of the board and the amount of clues provided (e.g. including block divisions or a “cheat sheet”), or from the collaborative or competitive nature of the game (i.e. no two  players have the same understanding about, nor expectations for the game). 
+       All three of the suggested play strategies include some degree of ambiguity deriving from either the complexity of the board and the amount of clues provided (e.g. including block divisions or a ``cheat sheet''), or from the collaborative or competitive nature of the game (i.e. no two  players have the same understanding about, nor expectations for the game). 
        \item \textbf{The ability to deal with open-ended problems}: Being able to cultivate the previous attitude naturally leads to practicing their ability to deal with open-ended problems. Game strategy C. Board Construction, especially, demands that players both have a good understanding of the game mechanics and bit properties, and are willing to deal with the messy process of modeling a new path with minimal constraints.
        \item \textbf{The ability to communicate and work with others to achieve a common goal or solution}:
        All three modes of play have been designed to encourage or demand some form of collaboration or competition.
@@ -368,61 +363,72 @@ Additionally, the game supports all dispositions and attitudes that are essentia
 \section{Evaluation and Observations}
 \label{sec:observations}
 We did not have sufficient time to complete a rigorous evaluation of RabBit EscApe. 
-However we did run an informal pilot. We followed Brandt's anecdote and interrogator method \cite{brandt1972studying} for data collection, to help protect the confidentiality of the students. 
-In order to protect our subjects' privacy, we took no notes, pictures, or videos during the actual session, but immediately thereafter wrote up the observations.
-Later in the same day, we interrogated each other's accounts. 
-In addition to protecting the children's privacy, this method of data collection allows us to devote our entire attention to observation, and not be distracted by documentation.
+However we did run an informal pilot at an elementary school with two groups of three students each: one boy and two girls in each group, aged between 8 and 10 years. 
+Both groups used the same board with play strategy A.Collaborative, but in one of them the dividers between blocks were not printed, making the game more open-ended and difficult. 
+We followed Brandt's anecdote and interrogator method \cite{brandt1972studying} for data collection, to help protect the confidentiality of the students. More specifically, in order to protect our subjects' privacy, we took no notes, pictures, or videos during the actual session, but immediately thereafter wrote up the observations. 
+Later in the same day, we interrogated each other's accounts and elaborated on the observations made, providing explanations whenever necessary. 
+In addition to protecting the children's privacy, this method of data collection allowed us to devote our entire attention to observation, and not be distracted by documentation during the pilot.
 
-From our pilot, we learned how much this activity must be pedagogically scaffolded. 
-Prior to attempting a full puzzle, we must familiarize the participants with the pieces by providing simple puzzles involving very few (2-4) pieces. 
-Then, we will gradually increase the difficulty by giving similar, but subtly different pieces. 
-By scaffolding the activity in such a way, the students would approach the challenging problem shown in {\em \hyperref[fig:board-game]{Figure \ref{fig:board-game}}} with an understanding of the properties of the pieces as described above (this process is described in more detail under the first section of the Play Strategies).
+The challenge of putting the puzzle together seemed relatively easy at first, as the students had many pieces available that could potentially fit within the path at any position. 
+However we provided them with exactly as many pieces as they needed in our planned solution. 
+The result was that once the students got good at placing the shapes within the lines, they had to confront the actual game challenges. 
+They had to make sure that polarity was correct between the bits. Adjacent pieces should attract, rather than repel, each other, while pieces adjacent to the enemies should repel them. An additional challenge was found as they were trying to join the two ends of the path in the middle, since they started working at opposite ends (toward the middle) simultaneously. 
+The result was a lucky scaling of difficulty/separation of concerns that was impossible to handle without a good understanding of the game mechanics.
 
-Among many other interesting observations, one that we thought supported this scaffolded introduction pertains to the students' process for searching. 
-We noticed the students describing to each other the shapes they wanted for a particular position on the board. 
-At first, the students described only the shape of the piece; however, they soon learned that the piece placement was too tightly constrained to merely try to swap out pieces of the same shape. 
+At that point we decided to intervene by providing clues about the bit properties that children had to accommodate. 
+In such an instance we tried to lead students in evaluating the different properties of a missing piece by themselves. 
+Questions like, ``What does this big piece need to have?'' and, ``What do we know about it?'' while pointing at the larger block on the board (at the bottom right of {\em \hyperref[fig:board-game]{Figure \ref{fig:board-game}b}}) prompted students to use conditional logic (a fundamental concept of CT) in identifying the properties and eventually the piece. 
+More specifically, one of the students started to respond to these prompts by saying, ``It is a big piece'' and then, ``it needs to have a plus magnet here'', while pointing at the bottom where the ape is, and ``it should have two more magnets on these sides,'' pointing at the top and bottom left where the large piece connects with the remaining path. 
+Such instances indicated that students could grasp the conditions that had to be satisfied for successful block construction and placement.
+
+We also noticed the way students communicated their intentions. 
+At first, students described only the shape of the piece; however, they soon learned that the piece placement was too tightly constrained to merely try to swap out pieces of the same shape. 
 After all, they could not be sure whether it was the piece in question that needed to be replaced, or its surroundings. 
 They then realized that they should specify the shape and also the polarities of the magnets; however, even this was an underspecification. 
 Because similarly shaped pieces may have the same number of magnets, but in different positions within a piece, they had to also specify the magnet locations. 
-Through a sort of discovery process, the students unknowingly employed incremental formalism\cite{shipman1999formality} to indicate what pieces they were looking for, and simultaneously to enhance their spoken representation of the pieces. 
-This may reflect evolution of their mental models of the game and its pieces as well.
+This demanded some kind of procedural or algorithmic thinking that is further discussed in the next section.
 
-Additionally, in supervising another group, we were very effective in leading students to evaluate the different properties of a missing piece. 
-Questions like, ``What does this big piece need to have?'' and, ``What do we know about it?'' while pointing at the larger block on the board (at the bottom right of {\em \hyperref[fig:board-game]{Figure \ref{fig:board-game}b}}) prompted students to use conditional logic in identifying the properties and eventually the piece. 
-More specifically, one of the students started to respond to these prompts by saying, ``It is a big piece'' and then, ``it needs to have a plus magnet here'', while pointing at the bottom where the ape is, and ``it should have two more magnets on these sides,'' pointing at the top and bottom left where the large piece connects with the remaining path. 
-Such instances indicated that students could grasp the conditions that must be satisfied successful piece placement.
+After almost 40 minutes of game play, both teams almost simultaneously thought they had completed the puzzle. 
+At that point we encouraged the groups to compare their solutions. Each group discovered an error in the other team's solution as well as noting similarities and differences in their arrangements. 
+Neither group had a solution that broke the lines of the path (so they satisfied this requirement); the errors discovered were single mistakes in polarity. 
+Aside from their initial frustration, both teams demonstrated perseverance in starting over, despite the limited time remaining, and the fact that they basically had to start over again. This was an indication of willingness to confront the ambiguity in the game design.
+
+Among many other interesting observations, there was a girl who seemed more systematic in bit placement. 
+She was sometimes testing her hypotheses by pointing at the polarity signs while holding and rotating the bits in her hands, without actually trying to place them physically next to the ones on the board. 
+This type of simulation is another important aspect of CT we have anticipated but have not systematically encouraged. 
+Instances like this, but also the frustration caused by the lack of instructions and initial guidance, motivated us to consider the appropriate instructional interaction design that could help students play the game effectively while acquiring the largest learning benefits.
 
 \section{\sloppy Instructional Interaction Design in support of Computational Thinking}
 \label{sec:instructional_design}
-In planning for a formal study, we plan to build small, simple introductory puzzles to engage the students with the manipulatives in order to scaffold their introduction to the game, and CT.
-In designing this game for children, we recognize the importance of keeping the activity fun, providing opportunities for learning, keeping within the children's zone of proximal development\cite{vygotsky1987zone}, and progressive disclosure \cite{nielsen2006progressive}.
+Although we did not have sufficient time to complete a rigorous evaluation of RabBit EscApe, we discovered that scaffolding is a necessary step in enabling children to get the most out of such a game. 
+Scaffolding includes levels of increasing difficulty, starting from making a single block (comprised of two to four bits) and moving on to more complicated shapes. 
+At some points they will have the option to construct the different shapes using more than one combination of bits, and will have to incrementally take into account other piece properties and examine the implications of their choices. 
+This mental modeling of the different affordances of each piece and the possible blocks it can construct will enable children to be more efficient in the actual game activities, without demanding extra cognitive load to process them during gameplay. 
 
-These introductory puzzles will assist in the pedagogical scaffolding necessary to promote CT and for the children to be able to complete more challenging puzzles.
+Another idea to aid the bit selection and usage process is to have a separate ``cheat sheet'' with all pieces and their count, next to the actual game boards. 
+Players can cross out any pieces that have been used with a marker in order to keep track of what has been used and what is still available. 
+This cheat sheet can be used during the initial sessions where players are learning the available bits and practicing with the strategies of putting them together. 
+Then, these mental aids can be progressively removed, letting the users depend on their ability to recognize the physical pieces. 
+This is a common process of scaffolding in instructional design, also called fading, because the additional information (scaffold) is removed (faded) over time. 
 
-% From our pilot, we learned how much this activity must be pedagogically scaffolded. 
-In following with our observations, prior to attempting a full puzzle, we will provide simpler puzzles involving a few pieces. 
-Then, we will gradually increase the difficulty by giving similar, but subtly different pieces.
-We will then increase the number and diversity of pieces. 
-As predicted in {\em \hyperref[sec:observations]{\nameref{sec:observations}}}
-, we expect that this would help the children approach the complex puzzles with a more nuanced understanding pieces.
+These introductory puzzles can also assist in the pedagogical scaffolding necessary to promote CT and for the children to be able to complete more challenging puzzles by employing CT concepts. 
+In order to deal with the underspecification problems that were observed during our pilot we suggest that children should have a very clear understanding of the piece properties and the constraints that they introduce. 
+Thus, we need to help them form some kind of algorithmic representation including all the properties that bits should have in any given position, and show them how to apply it in similar situations. 
+This can be achieved through guiding questions that will lead children to evaluate the different properties of any missing piece on the board. 
+Questions like ``How big should this piece be?'', ``How should it attach to adjacent blocks?'', and ``What polarity should the magnets have?'' will help them construct mental functions of bit and path properties that need to be evaluated at every point in the game.
 
-The search activity we observed in our pilot was a fantastic site for development of CT. 
-We will develop introductory activities that would attempt to help children discover how to communicate about the challenges of the puzzle. 
-One activity that the children will perform once they are working on the more complex puzzles is a search activity. 
-The children will need to describe to each other the shapes they want for a particular position on the board, and our introductory activities will be structured to help them develop a rich, nuanced language for the pieces.
-% Regarding the children's process for searching, Michael noticed the students describing to each other the shapes they wanted for a particular position on the board. 
-% While at first the children may describe only the shape of the piece, they will soon learn that the piece placement was too tightly constrained to merely try to swap out pieces of the same shape. 
-% After all, they could not be sure whether it is the piece in question that needs to be replaced, or its surroundings. 
-% They will then realize that they should specify the shape and also the polarities of the magnets; however, even this will be an underspecification. 
-% Because similarly shaped pieces may have the same number of magnets, but in different positions within a piece, they will also need to specify the magnet locations. 
-% Through a sort of discovery process, we expect the children to use incremental formalism\cite{shipman1999formality} to indicate what pieces they are looking for, and simultaneously to enhance their spoken representation of the pieces (and likely their mental models of them as well).
+Social interactions are of pivotal importance in the conversion of the game attributes (i.e., path shape on board, bit properties, remaining bits) into mental functions. 
+Students need not only rely on the guidance of a tutor but also on their peers; students should be encouraged to question each other’s assumptions while moving from the initial introductory puzzles to more complex game boards. 
+The goal would be to keep the students in the optimal cognitive state where they feel confident in dealing with the task at hand (i.e., forming parts of the path), but they are not overwhelmed by the complexity of the problem (i.e., completing the whole board). 
+This condition, also known as the ``zone of proximal development'' \cite{vygotsky1987zone} is where learning is more effective, by internalizing external representations through social negotiations.
 
-% Additionally, Chris and Panagiotis, supervising another group, were very effective in leading students to evaluate the different properties of a missing piece. 
-Due to the success of the guiding questions mentioned in {\em \hyperref[sec:observations]{\nameref{sec:observations}}}, we will include activities that explicitly ask  those questions, so that students must engage more deeply with the game and its components.
-% Questions like ``What does this big piece need to have?'' and ``What do we know about it?'' while pointing at the larger block on the board (at the bottom right of {\em Figure \ref{fig:board-game}b}) will prompt the children to use conditional logic in identifying the properties and eventually the piece. 
-% More specifically, one of the students started to respond to these prompts by saying ``It is a big piece'' and then ``it needs to have a plus magnet here'', while pointing at the bottom where the ape is, and ``it should have two more magnets on these sides'', pointing at the top and bottom left where the large piece connects with the remaining path. 
-% We expect a child's response to such prompts to be, ``It is a big piece,'' and then ``it needs to have a plus magnet here'', while pointing at the bottom where the ape is, and ``it should have two more magnets on these sides'', pointing at the top and bottom left where the large piece connects with the remaining path. 
-% Such instances will indicate that the children grasp the conditions that need to be in place in order for the pieces to be placed successfully.
+Finally, in designing this game for children, we recognize the importance of keeping the activity fun since this is a major motivating factor for children. 
+Having colorful boards with a playful theme like the one used in the game (i.e., help the rabbit escape the lurking apes) is part of our instructional design approach that has been shown in our pilot to be effective, since children were compelled with the design and moved the rabbit piece even before fully completing the board. 
+Teaching CT concepts in such a young age is not an easy task, thus we intentionally moved the focus of the game away from mathematical concepts which are predominant in similar game setups.
+
+Through a sort of discovery process, we expect the children to use incremental formalism \cite{shipman1999formality} to indicate what pieces they are looking for, and simultaneously to enhance their spoken representation of the pieces. 
+This may reflect evolution of their mental models of the game and its pieces as well. 
+
 
 \subsection{Alternative Games Not Pursued}
 \label{sec:terminated_games}
@@ -441,7 +447,7 @@ Records must be established to keep track of which pieces have been cut, tapped,
 The use of various custom jigs is important not only for speed, but also for consistent results require for peice alignment during gameplay.
 For future work, we might propose just such exercises for high school students or above in a ``workshop''-style class.
 % To determine the kind of physical and process scaffolding needed to produce consistent sizes of pieces in a timely fashion is important and difficult. 
-From RabBit EscApe's theoretical design, we believe it shows promise for teaching CT.  With additional levels that highlight common obstacles faced (ie. all pieces must have a southern faced )
+From RabBit EscApe's theoretical design, we believe it shows promise for teaching CT. With additional levels that highlight common obstacles faced (ie. all pieces must have a southern faced )
 
 \section{Conclusion}
 \label{sec:conclusion}
@@ -454,7 +460,7 @@ While we think that VT can be effective in this pursuit, we believe that to trul
 In support of educating students at a younger age (than undergraduate students), we have developed RabBit EscApe to teach CT in a relatively explicit way.
 We believe that addressing CT directly, in conjunction with more subtle interactions such as integrating CT with core content in existing formal education curricula\cite{NSFCE21} will best facilitate the learning of CT and its successful transfer and application to each individual's area of interest or expertise.
 
-% We should discuss whether we should include text, annotations, or just y/n/m and switch to color coding.  It appears we can fir everything in, but another run or look at it couldn't hurt, as we didn't do analysis on two of the games we listed
+% We should discuss whether we should include text, annotations, or just y/n/m and switch to color coding. It appears we can fir everything in, but another run or look at it couldn't hurt, as we didn't do analysis on two of the games we listed
 \clearpage
 \begin{sidewaystable}[htbp]
 \tiny
@@ -511,7 +517,7 @@ We believe that addressing CT directly, in conjunction with more subtle interact
     \hline
     \multicolumn{13}{|l|}{Proposed Games} \\ \hline \hline
 
-    nMotion (Catapult) & Weapons, targets, ammunition, play field (with constraints) & Methods vs models, Trial \& error to understand each model.\newline \newline The different stages (play|design|test) allow for stronger abstractions, especially across situations & EASY: Aim, prime, fire, and move.\newline \newline DIFFICULT: switch people, defend, and how to define communication(parameters) to each other & Less so, but maybe if they create their own weapon from methods/functions.\newline \newline Or are allowed to create a defense & Starting with a goal, they identify the components that will help them achieve their goal.   Several layers of dissection will need to occur to be proficient & Given a limited number of attempts & A correct analysis of the situation, as well as appropriate selection and execution of methods enables role playing and challenges that should expand stronger methods, models, and artistic creation. & Team based competition & There are patterns in the trial and error in recognizing performance & The students can create a set of nested steps to perform tasks.\newline \newline The effectiveness of another team member executing the task without any follow up communication (verbal or other) can be measured. The team's collective algorithms could be assessed on another team performing the task and the questions that arise out of their performance. & The play phase of this game is simulation. & ~ \\ \hline
+    nMotion (Catapult) & Weapons, targets, ammunition, play field (with constraints) & Methods vs models, Trial \& error to understand each model.\newline \newline The different stages (play|design|test) allow for stronger abstractions, especially across situations & EASY: Aim, prime, fire, and move.\newline \newline DIFFICULT: switch people, defend, and how to define communication(parameters) to each other & Less so, but maybe if they create their own weapon from methods/functions.\newline \newline Or are allowed to create a defense & Starting with a goal, they identify the components that will help them achieve their goal. Several layers of dissection will need to occur to be proficient & Given a limited number of attempts & A correct analysis of the situation, as well as appropriate selection and execution of methods enables role playing and challenges that should expand stronger methods, models, and artistic creation. & Team based competition & There are patterns in the trial and error in recognizing performance & The students can create a set of nested steps to perform tasks.\newline \newline The effectiveness of another team member executing the task without any follow up communication (verbal or other) can be measured. The team's collective algorithms could be assessed on another team performing the task and the questions that arise out of their performance. & The play phase of this game is simulation. & ~ \\ \hline
     
     Hero Game & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
     
