@@ -34,6 +34,7 @@
 \usepackage[table]{xcolor}
 \usepackage{nameref}
 \usepackage{hyperref}
+\usepackage{ragged2e}
 \hypersetup{colorlinks=false}
 
 \begin{document}
@@ -234,9 +235,22 @@ As Pandemic is essentially a graph-theoretical representation of several major c
 The aspects of CT they chose to focus on were conditional logic, distributed processing, debugging, simulation, and algorithm building. 
 
 Our research led us to review many current commercialized games, and to develop some ideas that can potentially be used for teaching CT indirectly, as seen in {\em \hyperref[table:games-comparison]{\nameref{table:games-comparison}}}.
-% During our research for other popular games that can potentially be used for teaching CT indirectly although they have not been designed for this purpose, we reviewed many current, commercialized games, but also came up with some hybrid ideas, seen in Table \ref{table:games-comparison}.
+We analysed each game for the following common CT definitional paradigms: modeling, abstraction, algorithms, artistic creation, goal disection, risk/reward comparison, shared roles, patterns, simulation, and other unique yet clear CT characteristics.
+We describe CT modeling in games as the creation of an operational abstraction that captures the properties of an object sufficient for reasoning or simulation; e.g. in Guess Who you have to model a person to identify, and understand the different physical characteristics of the person as well as the articles that each person may wear.
+\textbf{Abstraction} is the process of theoretically describing existing problems without a specific examples in a manner that enables reusability of produced solution(s) in the same or other contexts; e.g. in Battleship you have to abstract the opponent’s pattern of ship placement to locate and destroy his fleet.
+\textbf{Algorithms} are reusable components (most often deriving from abstraction) describing a procedure that facilitates problem-solving; e.g., in Tic-Tac-Toe or Chess, a user can construct an algorithm of game play that produces the same result whenever enacted.
+\textbf{Artistic Creation} is described as the creation or definition of a model or idea in an artistic nature utilizing personal intuition or ecological inspiration, not stemming from any pre-requisite, defined requirement, or traditional linear thought; Mad Lib's use of open ended queries for parts of speech exemplifies participant's answers as artistic creation/interpretation.
+\textbf{Goal Disection} is described as breaking down the goals or intentions of a game into smaller unique achievable or comprehensible units; to win Acquire, a player must understand the winning condition and the many different ways it can be achieved, by themselves and others.
+\textbf{Risk vs Reward} is an situation where a correct solution is unknown and each potential step has to be weighed against the consequences of discovering if it is a correct solution or dead end; While trying to determine the killer in Clue, several options might exist to declare to hopefully gain insight into another clue, however no currently known information easily guides the player to take one action over another.
+\textbf{Shared Roles} roles generally define some rules that may be specific to a subest of the players, and they may additionally modulate the relationships or abilities of players.
+Understanding the effects of a role and being able to empathize with others’ roles at least improves (or even enables) one to simulate future events in the game; while Chess does have an oponent, their roles, actions, and oppurtunites do not differ from oneself, whereas in Cranium, several smaller games require you to empathize with a teammate's knowledge to communicate in non-traditional methods to reach an understanding.
+\textbf{Patterns} are distinguishable events, results, consequences, arrangements, designs, or aesthetics that can be identified to or realized by participants; Checkers openings or end game situations can be recognized as a situational pattern.
+\textbf{Simulation} is to imitate possible outcomes given a certain state (for example given a set of models and their relationships, as potentially modified by roles or other special circumstances) and stimuli.
+This means understanding the conditional interaction of models and their environment and stimuli and could be used to forecast future events in turn-based or other games; Dominoes can be setup in the same layout and played in repition to discuss alternative gameplay and strategy.
+
+
 And, to our delight, exactly contemporary with this stage of our work, CT was getting attention from a much broader audience through a Kickstarter.com project, teaching programming to little kids using a board game \cite{robotturtles}.
-Having completed this extensive analysis, and been unsatisfied, and also questioning whether it would be possible to teach CT in tangible games, we decided to pursue our own low-cost game ideas.
+Having completed this extensive analysis, unsatisfied, and questioning whether it would be possible to teach CT in tangible games, we decided to pursue our own low-cost game ideas.
 
 \subsubsection{RabBit EscApe}
 \label{sec:rabbit}
@@ -367,8 +381,7 @@ Additionally, the game supports all dispositions and attitudes that are essentia
 
 \section{Evaluation and Observations}
 \label{sec:observations}
-We did not have sufficient time to complete a rigorous evaluation of RabBit EscApe. 
-However we did run an informal pilot. We followed Brandt's anecdote and interrogator method \cite{brandt1972studying} for data collection, to help protect the confidentiality of the students. 
+We ran an informal pilot of the game to elementary students in a local school. We followed Brandt's anecdote and interrogator method \cite{brandt1972studying} for data collection, to help protect the confidentiality of the students. 
 In order to protect our subjects' privacy, we took no notes, pictures, or videos during the actual session, but immediately thereafter wrote up the observations.
 Later in the same day, we interrogated each other's accounts. 
 In addition to protecting the children's privacy, this method of data collection allows us to devote our entire attention to observation, and not be distracted by documentation.
@@ -403,8 +416,7 @@ These introductory puzzles will assist in the pedagogical scaffolding necessary 
 In following with our observations, prior to attempting a full puzzle, we will provide simpler puzzles involving a few pieces. 
 Then, we will gradually increase the difficulty by giving similar, but subtly different pieces.
 We will then increase the number and diversity of pieces. 
-As predicted in {\em \hyperref[sec:observations]{\nameref{sec:observations}}}
-, we expect that this would help the children approach the complex puzzles with a more nuanced understanding pieces.
+As predicted in {\em \hyperref[sec:observations]{\nameref{sec:observations}}}, we expect that this would help the children approach the complex puzzles with a more nuanced understanding pieces.
 
 The search activity we observed in our pilot was a fantastic site for development of CT. 
 We will develop introductory activities that would attempt to help children discover how to communicate about the challenges of the puzzle. 
@@ -458,76 +470,70 @@ We believe that addressing CT directly, in conjunction with more subtle interact
 \clearpage
 \begin{sidewaystable}[htbp]
 \tiny
-    \vspace*{-12cm}\hspace*{-1cm}\begin{tabular}{|p{1.3cm}||p{1cm}|p{2cm}|p{2cm}|p{1.6cm}|p{2cm}|p{1cm}|p{2cm}|p{1cm}|p{1.3cm}|p{2.7cm}|p{1cm}|p{1.6cm}|}
+    \vspace*{-12cm}\hspace*{-1cm}\begin{tabular}{|p{1.3cm}||p{1cm}|p{2cm}|p{2cm}|p{1.6cm}|p{2cm}|p{1.3cm}|p{2cm}|p{1cm}|p{1.3cm}|p{2.7cm}|p{1cm}|}
     
     \hline
 
-    Game & Modeling & Abstraction & Functions & Artistic Creation & Goal Disection & Risk/Reward == Comparison & Situational Turn Based Forecasting & Shared Roles & Patterns & Algortihms & Simulation & Unique \\ \hline \hline
+    Game & Modeling & Abstraction & Functions & Artistic Creation & Goal Disection & Risk/Reward == Comparison & Situational Turn Based Forecasting & Shared Roles & Patterns & Algortihms & Simulation \\ \hline \hline
     
-    \multicolumn{13}{|l|}{Current Games}  \\ \hline \hline
+    \multicolumn{12}{|l|}{Current Games}  \\ \hline \hline
     
-    Pandemic & ~ & ~ & ~ & ~ & \cellcolor{blue!25} YES & ~ & ~ & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & ~ & ~ & Decoupling \\ \hline
+    Pandemic & NO & NO & NO & NO & \cellcolor{blue!25} YES & YES & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & NO \\ \hline
     
-    Settlers Of Catan & ~ & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & ~ & ~ \\ \hline
+    Settlers Of Catan & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO \\ \hline
 
-    Robot Turtles & ~ & ~ & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & ~ \\ \hline
+    Robot Turtles & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES \\ \hline
 
-    Mr. Jack & ~ & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    Mr. Jack & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO & NO \\ \hline
 
-    Ticket To Ride & ~ & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ \\ \hline
+    Ticket To Ride & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO \\ \hline
 
-    Carcassonne & ~ & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~                                                   & \cellcolor{blue!25}YES & ~ & ~ & ~ & ~ & ~ \\ \hline
+    Carcassonne & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO                                                   & \cellcolor{blue!25}YES & NO & NO & NO & NO \\ \hline
 
-    Guess Who & \cellcolor{blue!25}YES & ~ & ~ & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & ~ & ~ & ~ & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & ~ & ~ \\ \hline
+    Guess Who & \cellcolor{blue!25}YES & NO & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO \\ \hline
 
-    Chess & In formations & ~ & \cellcolor{blue!25}YES & ~ & MAYBE & ~ & \cellcolor{blue!25}YES, but even strong computers fail at this & \cellcolor{red!25}NO & ~ & ~ & ~ & ~ \\ \hline
+    Chess & In formations & NO & \cellcolor{blue!25}YES & NO & MAYBE & NO & \cellcolor{blue!25}YES, but even strong computers fail at this & NO & NO & NO & NO \\ \hline
 
-    Checkers & ~ & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & \cellcolor{blue!25}YES & \cellcolor{red!25}NO & ~ & ~ & ~ & ~ \\ \hline
+    Checkers & NO & NO & \cellcolor{blue!25}YES & NO & NO & YES & \cellcolor{blue!25}YES & NO & NO & NO & NO \\ \hline
 
-    Blockus & ~ & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES, in end game & \cellcolor{red!25}NO & \cellcolor{blue!25}YES & ~ & ~ & ~ \\ \hline
+    Blockus & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES, in end game & NO & \cellcolor{blue!25}YES & NO & NO \\ \hline
 
-    Resistance & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    Resistance & NO & NO & NO & NO & NO & NO & NO & NO & NO & NO & NO \\ \hline
 
-    Acquire & ~ & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    Acquire & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO & NO \\ \hline
 
-    Tic Tac Toe & ~ & ~ & ~ & ~ & ~ & ~ & \cellcolor{blue!25}YES & \cellcolor{red!25}NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & ~ & ~ \\ \hline
+    Tic Tac Toe & NO & NO & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO \\ \hline
 
-    Clue & ~ & ~ & \cellcolor{blue!25}YES - to minimize turns taken & ~ & ~ & ~ & ~ & \cellcolor{red!25}NO & ~ & \cellcolor{blue!25}YES & ~ & ~ \\ \hline
+    Clue & NO & NO & \cellcolor{blue!25}YES - to minimize turns taken & NO & NO & YES & NO & NO & NO & \cellcolor{blue!25}YES & NO \\ \hline
 
-    3-15 & ~ & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    3-15 & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO & NO \\ \hline
 
-    Cranium & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & ~ \\ \hline
+    Cranium & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO \\ \hline
 
-    Battleship & ~ & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & ~ & ~ & ~ & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & ~ & ~ \\ \hline
+    Battleship & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO \\ \hline
 
-    Dominoes & ~ & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~ & ~ & \cellcolor{blue!25}YES & ~ & ~ \\ \hline
+    Dominoes & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & \cellcolor{blue!25}YES & NO \\ \hline
 
-    Mad Lib & \cellcolor{blue!25}YES & ~ & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    Mad Lib & \cellcolor{blue!25}YES & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO & NO & NO \\ \hline \hline
 
-    % Flow Free & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    \multicolumn{12}{|l|}{Proposed Games} \\ \hline \hline
 
-    % (Triangle) Peg Jump & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline 
-
-    \hline
-    \multicolumn{13}{|l|}{Proposed Games} \\ \hline \hline
-
-    nMotion (Catapult) & Weapons, targets, ammunition, play field (with constraints) & Methods vs models, Trial \& error to understand each model.\newline \newline The different stages (play|design|test) allow for stronger abstractions, especially across situations & EASY: Aim, prime, fire, and move.\newline \newline DIFFICULT: switch people, defend, and how to define communication(parameters) to each other & Less so, but maybe if they create their own weapon from methods/functions.\newline \newline Or are allowed to create a defense & Starting with a goal, they identify the components that will help them achieve their goal.   Several layers of dissection will need to occur to be proficient & Given a limited number of attempts & A correct analysis of the situation, as well as appropriate selection and execution of methods enables role playing and challenges that should expand stronger methods, models, and artistic creation. & Team based competition & There are patterns in the trial and error in recognizing performance & The students can create a set of nested steps to perform tasks.\newline \newline The effectiveness of another team member executing the task without any follow up communication (verbal or other) can be measured. The team's collective algorithms could be assessed on another team performing the task and the questions that arise out of their performance. & The play phase of this game is simulation. & ~ \\ \hline
+    nMotion (Catapult) & \raggedright{Weapons, targets, ammunition, play field (with constraints)} & \raggedright{Methods vs models, Trial \& error to understand each model.\newline \newline The different stages (play|design|test) allow for stronger abstractions, especially across situations} & \raggedright{EASY: Aim, prime, fire, and move.\newline \newline DIFFICULT: switch people, defend, and how to define communication(parameters) to each other} & \raggedright{Less so, but maybe if they create their own weapon from methods/functions.\newline \newline Or are allowed to create a defense} & \raggedright{Starting with a goal, they identify the components that will help them achieve their goal.   Several layers of dissection will need to occur to be proficient} & \raggedright{Given a limited number of attempts} & \raggedright{A correct analysis of the situation, as well as appropriate selection and execution of methods enables role playing and challenges that should expand stronger methods, models, and artistic creation.} & \raggedright{Team based competition} & \raggedright{There are patterns in the trial and error in recognizing performance} & \raggedright{The students can create a set of nested steps to perform tasks.\newline \newline The effectiveness of another team member executing the task without any follow up communication (verbal or other) can be measured. The team's collective algorithms could be assessed on another team performing the task and the questions that arise out of their performance.} & \raggedright{The play phase of this game is simulation.} \\ \hline
     
-    Hero Game & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    Hero Game & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO \\ \hline
     
-    Sorting height of students & ~ & ~ & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~ & Processing \\ \hline
+    Sorting height of students & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO \\ \hline
     
-    Collaborative matching & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    Collaborative matching & NO & NO & NO & NO & NO & NO & NO & NO & NO & NO & NO \\ \hline
     
-    Mixing water Bottles (from Die Hard\cite{diehard2008thorp}) & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & \cellcolor{blue!25}YES & ~ & ~ & Processing \\ \hline
+    Mixing water Bottles (from Die Hard\cite{diehard2008thorp}) & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO \\ \hline
     
-    Bi Directional Mad Libs & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & ~ & \cellcolor{blue!25}YES & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    Bi Directional Mad Libs & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO & NO & NO \\ \hline
     
-    Rab-Bit Esc-Ape & The wooden bits and designated path structures & ~ & ~ & Creating new path levels & path must be broken down into chunks and separate models constructed for each chunk & Given a time restriction, strategies come into play & ~ & Players can choose to work either in different parts of the board or the same one & Bit combinations, by analyzing the path, the enemies, and magnet polarity & reusability of paths or components across game boards; extra points are awarded for using such blocks. Over time they get better at this `algorithmic' approach of reusing bits per case (e.g., round corners, U turns, etc.) & ~ & Representational choice : game demands mental
-    Our researched turns us to review  rotations of 3D blocks to match a correct mental representation (shape \& polarity matching) \\ \hline
+    Rab-Bit Esc-Ape & \raggedright{The wooden bits and designated path structures} & ~ & ~ & \raggedright{Creating new path levels} & \raggedright{Path must be broken down into chunks and separate models constructed for each chunk} & \raggedright{Given a time restriction, strategies come into play} & ~ & \raggedright{Players can choose to work either in different parts of the board or the same one} & \raggedright{Bit combinations, by analyzing the path, the enemies, and magnet polarity & reusability of paths or components across game boards; extra points are awarded for using such blocks. Over time they get better at this `algorithmic' approach of reusing bits per case (e.g., round corners, U turns, etc.)} & ~ \\ \hline
     \end{tabular}\hspace*{-1cm}\vspace*{-1cm}
-    \caption{Comparison of Games}
-    Table \label{table:games-comparison}
+    \hspace*{1cm}\vspace*{1cm}\caption{Comparison of Games}
+    \label{table:games-comparison}
 \end{sidewaystable}
 
 \clearpage
