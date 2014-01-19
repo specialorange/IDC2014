@@ -164,11 +164,11 @@ According to this definition, ``CT is a problem-solving process that includes (b
   \item{Identifying, analyzing, and implementing possible solutions with the goal of achieving the most efficient and effective combination of steps and resources}
   \item{Generalizing and transferring this problem solving process to a wide variety of problems}
 \end{itemize}
-While our group, like many researchers before us, consider abstraction to be a critical part of CT, we believe that it is necessary to simultaneously teach the dangers of abstraction. 
+While we, like many researchers, consider abstraction to be a critical part of CT, we believe that it is necessary to simultaneously teach the dangers of abstraction. 
 In line with Blackwell, et al., we agree that abstraction might be ``antagonistic to reasonable human concerns''\cite{blackwell2008abstract}. 
 Along the same lines, Turkle and Papert have argued long ago that ``concrete and personal approaches'' to computing should not be downplayed in favor of formal and ``abstract approaches'', nor should they be dismissed as more inferior \cite{turkle1990epistemological}. 
 Their thesis, based on ethnographic and psychology investigations, aligns well with the theory of situated learning which postulates that people learn contextually, by being actively engaged in authentic (learning) activities, and not in the decontextualized and abstract manner of formal education \cite{brown1989situated}. 
-Although we do not abolish abstraction altogether, we did not consider it an important element of teaching CT, especially for our target group.
+Therefore, we did not consider abstraction as a critical element of teaching CT to our target group.
 
 \subsection{Recruitment of Computer Scientists}
 \label{sec:recruitment}
@@ -193,6 +193,7 @@ Aside from efforts attempting to broaden participation, there are efforts that m
 How should someone know they might be interested in CS?
 From the earliest education, we expose students to reading, writing, and arithmetic.
 When are they exposed to CS?
+Besides the identified need to involve children with CT from an early age, few endeavors focus on primary school children and younger.
 Unfortunately, only after a student [or their parent(s)] elects to take a programming course do they encounter CS. 
 
 CT, rather than programming, might be taught explicitly, as its own subject, or implicitly in the context of other subjects, at ages much younger than a high school programming course.
@@ -201,13 +202,6 @@ Then, more students will have an opportunity to recognize an affinity for skills
 \subsection{Preparing the 21st Century Citizen}
 \label{sec:citizens}
 While improving recruitment of computer scientists is a major focus of many CT research agendas, an emerging concern is the general public's preparedness for the increasingly technological modern age. Many researchers' definitions of CT attempt to specify important skills related to technology and computation that the researchers themselves predict to be necessary as our society continues to adopt technological solutions in virtually every domain. Some call this computational or technological literacy rather than CT, but as Professor Dane Webster mentioned in a presentation to our class, ``Doesn't teaching math students to use a pencil help them to think mathematically?''\cite{webster2013quote}
-
-\subsubsection{Caveats}
-\label{sec:caveats}
-While our group (like many of the researchers before us) consider abstraction to be a critical part of CT, we believe that it is necessary to simultaneously teach the dangers of abstraction.
-In line with Blackwell, et al., we agree that abstraction might be ``antagonistic to reasonable human concerns'' \cite{blackwell2008abstract}.
-Along the same lines, Turkle and Papert have argued long ago that ``concrete and personal approaches'' to computing should not be downplayed in favor of formal and ``abstract approaches'', nor should they be dismissed as more inferior \cite{turkle1990epistemological}.
-Their thesis, based on ethnographic and psychology investigations, aligns well with the theory of situated learning which postulates that people learn contextually, by being actively engaged in authentic (learning) activities, and not in the decontextualized and abstract manner of formal education \cite{brown1989situated}.
 
 % DO WE WANT TO MOVE ALL PREVIOUS SECTIONS TO BE SUBSECTIONS OF THE INTRO? (Kafura's comment on page 5 right before the following section implies that he thought they were.)
 
@@ -219,15 +213,16 @@ The tradition of using games for education is a long one. Children grow up and g
 Most of their interactions in an early age are through touch, and other senses as well, and this is why most of the games of early childhood are tangible.
 This realization was what led the German educator Friedrich Froebel to build a series of wooden blocks known as Froebelgrabe (i.e., Froebel gifts) in an attempt to foster children's self-directed activity in exploring the world and using the environment as a learning aid \cite{liebschner1992child}.
 Based on this notion of learning by doing, researchers at MIT Media Laboratory have coined the term objects-to-think-with as a means to leverage the power of computation in the exploration process \cite{resnick1998digital,schweikardt2006roblocks}. LEGO/Logo is maybe the most famous offspring of this approach where students are learning to program by controlling enhanced LEGO structures (equipped with motors and sensors).
-Resnick et al. has proposed ``digital manipulatives'' as a continuation of this work where students are called to control through Logo programming other tangible artifacts like blocks, balls, beads, and badges \cite{liebschner1992child}.
+Resnick et al. proposed ``digital manipulatives'' as a continuation of this work where students are called to control through Logo programming other tangible artifacts like blocks, balls, beads, and badges \cite{liebschner1992child}.
+On the contrary, we were interested to investigate how low-cost games with easy to manufacture components can be leveraged to provide CT exposure to very young children. 
 
-Other researchers have also argued about the educational benefit of using computationally-enhanced construction kits where kids build 3D models and ``learn through tactile experiences'' \cite{eisenberg2002computationally}.
+Other researchers have also explored the educational benefit of using computationally-enhanced construction kits where kids build 3D models and ``learn through tactile experiences'' \cite{eisenberg2002computationally}.
 Such smart artifacts are equipped with technology that allows them to communicate with each other, with computers, and eventually provide feedback about their state to their users.
 Various systems have been proposed since then, employing a variety of advanced technologies like programming robotic motion of motorized pieces through kinetic memory \cite{raffle2004topobo} or creating structures with blocks embedding sensors, logic circuits, and actuators for science education \cite{schweikardt2006roblocks}.
 Although these are exceptional examples of high-tech application in the service of informal education, they are mainly research projects that in most cases do not become commercialized.
-On the contrary, we were interested to investigate how low-cost games with easy to manufacture components can be leveraged to provide CT exposure to very young children. 
+Our motivation was also strengthened by the contemporary attention being given to CT by a much broader audience through a Kickstarter.com project, teaching programming to little kids using a board game \cite{robotturtles}.
 
-For such an audience, motivation is believed to play a significant part in the learning process; this is even more the case if learning objectives are intrinsic to the goal of the game \cite{malone1987making}.
+For young learners, motivation is believed to play a significant part in the learning process; this is even more the case if learning objectives are intrinsic to the goal of the game \cite{malone1987making}.
 To motivate them, learners are immersed in a fantasy world and are asked to do challenging tasks by instigating their curiosity.
 These practices have been used in many educational games, including ones that teach about CS and programming.
 Examples include either stand-alone games that leverage elements of fun to teach simple programming concepts like pattern recognition and recursion (e.g., Light-Bot), but also tools that leverage the students innate creativity to learn programming through game building (e.g., Scratch, Snap, and AgentSheets).
@@ -240,33 +235,31 @@ As Pandemic is essentially a graph-theoretical representation of several major c
 The aspects of CT they chose to focus on were conditional logic, distributed processing, debugging, simulation, and algorithm building. 
 
 Our research led us to review many current commercialized games, and to develop some ideas that can potentially be used for teaching CT indirectly, as seen in {\em \hyperref[table:games-comparison]{\nameref{table:games-comparison}}}.
-We analysed each game for the following common CT definitional paradigms: modeling, abstraction, algorithms, artistic creation, goal disection, risk/reward comparison, shared roles, patterns, simulation, and other unique yet clear CT characteristics.
+We analysed each game for the following common CT definitional paradigms: modeling, abstraction, algorithms, artistic creation, goal disection, risk/reward comparison, shared roles, patterns, and simulation.
 We describe CT \textbf{modeling} in games as the creation of an operational abstraction that captures the properties of an object sufficient for reasoning or simulation; e.g. in Guess Who you have to model a person to identify, and understand the different physical characteristics of the person as well as the articles that each person may wear.
-\textbf{Abstraction} is the process of theoretically describing existing problems without a specific examples in a manner that enables reusability of produced solution(s) in the same or other contexts; e.g. in Battleship you have to abstract the opponent’s pattern of ship placement to locate and destroy his fleet.
+\textbf{Abstraction} is the process of theoretically describing existing problems without a specific examples in a manner that enables reusability of produced solution(s) in the same or other contexts; e.g. in Battleship you have to abstract the opponent's pattern of ship placement to locate and destroy his fleet.
 \textbf{Algorithms} are reusable components (most often deriving from abstraction) describing a procedure that facilitates problem-solving; e.g., in Tic-Tac-Toe or Chess, a user can construct an algorithm of game play that produces the same result whenever enacted.
 \textbf{Artistic Creation} is described as the creation or definition of a model or idea in an artistic nature utilizing personal intuition or ecological inspiration, not stemming from any pre-requisite, defined requirement, or traditional linear thought; Mad Lib's use of open ended queries for parts of speech exemplifies participant's answers as artistic creation/interpretation.
 \textbf{Goal Disection} is described as breaking down the goals or intentions of a game into smaller unique achievable or comprehensible units; to win Acquire, a player must understand the winning condition and the many different ways it can be achieved, by themselves and others.
 \textbf{Risk vs Reward} is an situation where a correct solution is unknown and each potential step has to be weighed against the consequences of discovering if it is a correct solution or dead end; While trying to determine the killer in Clue, several options might exist to declare to hopefully gain insight into another clue, however no currently known information easily guides the player to take one action over another.
 \textbf{Shared Roles} roles generally define some rules that may be specific to a subest of the players, and they may additionally modulate the relationships or abilities of players.
-Understanding the effects of a role and being able to empathize with others’ roles at least improves (or even enables) one to simulate future events in the game; while Chess does have an oponent, their roles, actions, and oppurtunites do not differ from oneself, whereas in Cranium, several smaller games require you to empathize with a teammate's knowledge to communicate in non-traditional methods to reach an understanding.
+Understanding the effects of a role and being able to empathize with others' roles at least improves (or even enables) one to simulate future events in the game; while Chess does have an oponent, their roles, actions, and oppurtunites do not differ from oneself, whereas in Cranium, several smaller games require you to empathize with a teammate's knowledge to communicate in non-traditional methods to reach an understanding.
 \textbf{Patterns} are distinguishable events, results, consequences, arrangements, designs, or aesthetics that can be identified to or realized by participants; Checkers openings or end game situations can be recognized as a situational pattern.
 \textbf{Simulation} is to imitate possible outcomes given a certain state (for example given a set of models and their relationships, as potentially modified by roles or other special circumstances) and stimuli.
 This means understanding the conditional interaction of models and their environment and stimuli and could be used to forecast future events in turn-based or other games; Dominoes can be setup in the same layout and played in repition to discuss alternative gameplay and strategy.
 
-
-And, to our delight, exactly contemporary with this stage of our work, CT was getting attention from a much broader audience through a Kickstarter.com project, teaching programming to little kids using a board game \cite{robotturtles}.
+XXXX INsert completed paragraph about analysis and cite the table 1 XXXX
 Having completed this extensive analysis, unsatisfied, and questioning whether it would be possible to teach CT in tangible games, we decided to pursue our own low-cost game ideas.
 
-\subsubsection{RabBit EscApe}
+\section{RabBit EscApe}
 \label{sec:rabbit}
-Besides the identified need to involve children with CT from an early age, few endeavors focus on primary school children and younger.
 RabBit EscApe is a board game with tangible wooden pieces intended for ages 8 and up.
 As shown from previous work, tangible wooden blocks like the Froebel blocks\cite{liebschner1992child} are very engaging and educational for this age group, contributing to children's emotional, social, and physical development through play.
 The game was inspired by the combination of the magnetic tile game Picasso-Tiles\cite{picassotiles3d} and the work from Weller et al. on objects-to-think-computationally-with using the Posey construction kit and a Pacman-style game to teach state machine representations to children \cite{weller2008escape}.
-In our approach we decided to avoid using any electronic medium like a computer in an attempt to reach younger ages which are accustomed to fiddling with tangible objects but are not yet ready to make connections between physical objects and virtual representations.
+In our approach we decided to avoid using any electronic medium like computers or sensors in an attempt to reach younger ages which are accustomed to fiddling with tangible objects but are not yet ready to make connections between physical objects and virtual representations.
 The outcome was a combination of a board game with wooden pieces with encased magnets, described in the following section.
 
-\subsubsection{Design}
+\subsection{Design}
 \label{sec:design}
 Our idea started by using manipulatives that have been a favorite kids' educational toy for a long time, but also wanted to provide some structure to the game to better support CT, hence we decided to construct a board, as well.
 We opted for wooden pieces both for their elegance and warm feeling, but also for health reasons preferred over plastic or other chemically manufactured materials. 
@@ -297,7 +290,7 @@ What makes the game especially challenging is the correct identification of the 
 Players must combine all these attributes in order to put the bits next to each other in such a manner that they stick together at the right place (center or top of the bit's side), while also repelling the enemies positioned around the board.
 Level A utilized all 29 pieces and all 4 enemies; we have made two variations, one with the block divisions drawn on the map and one without them.
 
-\subsubsection{Play Strategies}
+\subsection{Play Strategies}
 \label{sec:strategies}
 % Training - Scaffolding
 In order to help players understand the game mechanics and the importance of the different piece properties and how they affect completing the board effectively, we suggest a training session preceding the actual gameplay.
@@ -345,7 +338,7 @@ Like the competitive activity, this construction method demands well organized p
 Considering bits and their properties to be the data, players need to construct sets of pieces as part of the path using logic during the process similarly to writing an algorithm (e.g. [conditional],``If I place this bit here, then this block has a minus on the bottom and needs a big square piece with a plus on the top center'').
 This activity in particular demands the complex skill of combining different requirements to build a set of steps that will lead to an efficient solution to a problem (i.e., build a path from point \textit{A} to point \textit{B}, using \textit{X} number of pieces, and avoid \textit{Y} enemies) and has been defined as procedural thinking - teaching concept abstraction into algorithms\cite{papert1980mindstorms}, a core concept of CT\cite{national2010report}.
 
-\subsubsection{Development of CT}
+\subsection{Development of CT}
 \label{sec:developing_ct}
 RabBit EscApe satisfies most of the characteristics of the Operational Definition of CT for K-12 Education as defined by the International Society for Technology in Education (ISTE)\cite{operationalct}. 
 More specifically, students playing the game should be able to: 1) logically organize and analyze data, 2) automate solutions through algorithmic thinking (a series of ordered steps), and 3) identify, analyze, and implement possible solutions with the goal of achieving the most efficient and effective combination of steps and resources. 
@@ -357,6 +350,7 @@ Considering the game mechanics and suggested activities discussed previously, we
 \item{In all game setups, especially Individual/Collaborative and Competitive, players need to correctly identify the combination of blocks and bits by analyzing the path's comprising shapes and then simulate possible solutions for effectively completing the board, with the least number of bits and in the minimum time (efficiency).}
 \end{enumerate}
 
+XXXX Need to move the dispositions alongside the definition XXXX
 Additionally, the game supports all dispositions and attitudes that are essential dimensions of CT, as expressed by the aforementioned definition which is pertinent to K-12 students:
 \begin{itemize}
        \item \textbf{Confidence in dealing with complexity}:
@@ -465,7 +459,7 @@ From RabBit EscApe's theoretical design, we believe it shows promise for teachin
 
 \section{Conclusion}
 \label{sec:conclusion}
-\sloppy As CT continues to be discussed in academic and professional communities and until a more concrete definition emerges, a significant leap must be made to educate our communities' youth as society continues to develop systems with which they must interact, whether or not they can understand them. 
+\sloppy As CT continues to be discussed in academic and professional communities and until a more concrete definition emerges, a significant leap must be made to educate our communities' youth as society continues to develop computational systems with which they must interact, whether or not they can understand them. 
 
 VT has embarked on a bold course to develop the CT capabilities of all its graduates.
 Simultaneously the US National Science Foundation is funding research into how to develop these skills in the broader population.
@@ -482,75 +476,312 @@ We believe that addressing CT directly, in conjunction with more subtle interact
     
     \hline
 
-    Game & Modeling & Abstraction & Functions & Artistic Creation & Goal Disection & Risk/Reward == Comparison & Situational Turn Based Forecasting & Shared Roles & Patterns & Algortihms & Simulation \\ \hline \hline
+    Game
+    & Modeling
+    & Abstraction
+    & Artistic Creation
+    & Goal Disection
+    & Risk/Reward == Comparison
+    & Shared Roles
+    & Patterns
+    & Algortihms
+    & Simulation \\ \hline \hline
     
-    \multicolumn{12}{|l|}{Current Games}  \\ \hline \hline
+    \multicolumn{10}{|l|}{Current Games}  \\ \hline \hline
     
-    Pandemic & NO & NO & NO & NO & \cellcolor{blue!25} YES & YES & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & NO \\ \hline
+    Pandemic
+      & NO
+      & NO
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO \\ \hline
     
-    Settlers Of Catan & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO \\ \hline
+    Settlers Of Catan 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO \\ \hline
 
-    Robot Turtles & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES \\ \hline
+    Robot Turtles 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES \\ \hline
 
-    Mr. Jack & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO & NO \\ \hline
+    Mr. Jack 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO \\ \hline
 
-    Ticket To Ride & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO \\ \hline
+    Ticket To Ride 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO \\ \hline
 
-    Carcassonne & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO                                                   & \cellcolor{blue!25}YES & NO & NO & NO & NO \\ \hline
+    Carcassonne 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO \\ \hline
 
-    Guess Who & \cellcolor{blue!25}YES & NO & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO \\ \hline
+    Guess Who 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & NO \\ \hline
 
-    Chess & In formations & NO & \cellcolor{blue!25}YES & NO & MAYBE & NO & \cellcolor{blue!25}YES, but even strong computers fail at this & NO & NO & NO & NO \\ \hline
+    Chess 
+      & In formations 
+      & NO 
+      & NO 
+      & MAYBE 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES, but even strong computers fail at this 
+      & NO \\ \hline
 
-    Checkers & NO & NO & \cellcolor{blue!25}YES & NO & NO & YES & \cellcolor{blue!25}YES & NO & NO & NO & NO \\ \hline
+    Checkers 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO 
+      & NO \\ \hline
 
-    Blockus & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES, in end game & NO & \cellcolor{blue!25}YES & NO & NO \\ \hline
+    Blockus 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES, in end game 
+      & NO \\ \hline
 
-    Resistance & NO & NO & NO & NO & NO & NO & NO & NO & NO & NO & NO \\ \hline
+    % Resistance 
+    %   & NO 
+    %   & NO 
+    %   & NO 
+    %   & NO 
+    %   & NO 
+    %   & NO 
+    %   & NO 
+    %   & NO 
+    %   & NO 
+    %   & NO \\ \hline
 
-    Acquire & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO & NO \\ \hline
+    Acquire 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO \\ \hline
 
-    Tic Tac Toe & NO & NO & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO \\ \hline
+    Tic Tac Toe
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & NO \\ \hline
 
-    Clue & NO & NO & \cellcolor{blue!25}YES - to minimize turns taken & NO & NO & YES & NO & NO & NO & \cellcolor{blue!25}YES & NO \\ \hline
+    Clue
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO \\ \hline
 
-    3-15 & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO & NO \\ \hline
+    3-15
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO \\ \hline
 
-    Cranium & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO \\ \hline
+    Cranium
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO \\ \hline
 
-    Battleship & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO \\ \hline
+    Battleship 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & NO \\ \hline
 
-    Dominoes & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO & \cellcolor{blue!25}YES & NO \\ \hline
+    Dominoes 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO \\ \hline
 
-    Mad Lib & \cellcolor{blue!25}YES & NO & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO & NO & NO \\ \hline \hline
+    Mad Lib 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO \\ \hline \hline
 
-    \multicolumn{12}{|l|}{Proposed Games} \\ \hline \hline
+    \multicolumn{10}{|l|}{Proposed Games} \\ \hline \hline
 
-    nMotion (Catapult) 
-    & \raggedright{Weapons, targets, ammunition, play field (with constraints)} 
-    & \raggedright{Methods vs models, Trial \& error to understand each model.\newline \newline The different stages (play|design|test) allow for stronger abstractions, especially across situations} 
-    & \raggedright{EASY: Aim, prime, fire, and move.\newline \newline DIFFICULT: switch people, defend, and how to define communication(parameters) to each other} 
-    & \raggedright{Less so, but maybe if they create their own weapon from methods/functions.\newline \newline Or are allowed to create a defense} & \raggedright{Starting with a goal, they identify the components that will help them achieve their goal.   Several layers of dissection will need to occur to be proficient} 
-    & \raggedright{Given a limited number of attempts} 
-    & \raggedright{A correct analysis of the situation, as well as appropriate selection and execution of methods enables role playing and challenges that should expand stronger methods, models, and artistic creation.} 
-    & \raggedright{Team based competition} 
-    & \raggedright{There are patterns in the trial and error in recognizing performance} 
-    & \raggedright{The students can create a set of nested steps to perform tasks.\newline \newline The effectiveness of another team member executing the task without any follow up communication (verbal or other) can be measured. The team's collective algorithms could be assessed on another team performing the task and the questions that arise out of their performance.} 
-    & {\raggedright The play phase of this game is simulation} \\ \hline
+    nMotion (Catapult)
+      & \raggedright{Weapons, targets, ammunition, play field (with constraints)} 
+      & \raggedright{Methods vs models, Trial \& error to understand each model.\newline \newline The different stages (play|design|test) allow for stronger abstractions, especially across situations} 
+    % & \raggedright{EASY: Aim, prime, fire, and move.\newline \newline DIFFICULT: switch people, defend, and how to define communication(parameters) to each other} 
+      & \raggedright{Less so, but maybe if they create their own weapon from methods/functions.\newline \newline Or are allowed to create a defense} 
+      & \raggedright{Starting with a goal, they identify the components that will help them achieve their goal.
+        Several layers of dissection will need to occur to be proficient} 
+      & \raggedright{Given a limited number of attempts}     
+      % & \raggedright{A correct analysis of the situation, as well as appropriate selection and execution of methods enables role playing and challenges that should expand stronger methods, models, and artistic creation.} 
+      & \raggedright{Team based competition} 
+      & \raggedright{There are patterns in the trial and error in recognizing performance} 
+      & \raggedright{The students can create a set of nested steps to perform tasks.\newline \newline The effectiveness of another team member executing the task without any follow up communication (verbal or other) can be measured.
+        The team's collective algorithms could be assessed on another team performing the task and the questions that arise out of their performance.} 
+      & {\raggedright The play phase of this game is simulation} \\ \hline
     
-    Hero Game & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO \\ \hline
+    Hero Game 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO 
+      & NO \\ \hline
     
-    Sorting height of students & NO & NO & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & \cellcolor{blue!25}YES & NO \\ \hline
+    Sorting height of students 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO \\ \hline
     
-    Collaborative matching & NO & NO & NO & NO & NO & NO & NO & NO & NO & NO & NO \\ \hline
+    % Collaborative matching 
+      % & NO 
+      % & NO 
+      % & NO 
+      % & NO 
+      % & NO 
+      % & NO 
+      % & NO 
+      % & NO 
+      % & NO \\ \hline
     
-    Mixing water Bottles (from Die Hard\cite{diehard2008thorp}) & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & \cellcolor{blue!25}YES & NO & NO \\ \hline
+    Mixing water Bottles (from Die Hard\cite{diehard2008thorp}) 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO \\ \hline
     
-    Bi Directional Mad Libs & \cellcolor{blue!25}YES & \cellcolor{blue!25}YES & NO & \cellcolor{blue!25}YES & NO & NO & NO & NO & NO & NO & NO \\ \hline
+    Bi Directional Mad Libs 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & \cellcolor{blue!25}YES 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO 
+      & NO \\ \hline
     
-    Rab-Bit Esc-Ape & \raggedright{The wooden bits and designated path structures} & NO & NO & \raggedright{Creating new path levels} & \raggedright{Path must be broken down into chunks and separate models constructed for each chunk} & \raggedright{Given a time restriction, strategies come into play} & NO & \raggedright{Players can choose to work either in different parts of the board or the same one} & \raggedright{Bit combinations, by analyzing the path, the enemies, and magnet polarity}
-    & \raggedright{reusability of paths or components across game boards; extra points are awarded for using such blocks. Over time they get better at this `algorithmic' approach of reusing bits per case (e.g., round corners, U turns, etc.)} 
-    & NO \\ \hline
+    Rab-Bit Esc-Ape 
+      & \raggedright{The wooden bits and designated path structures} 
+      & NO 
+      & \raggedright{Creating new path levels} 
+      & \raggedright{Path must be broken down into chunks and separate models constructed for each chunk} 
+      & \raggedright{Given a time restriction, strategies come into play} 
+      & \raggedright{Players can choose to work either in different parts of the board or the same one} 
+      & \raggedright{Bit combinations, by analyzing the path, the enemies, and magnet polarity}
+      & \raggedright{reusability of paths or components across game boards; extra points are awarded for using such blocks.
+        Over time they get better at this `algorithmic' approach of reusing bits per case (e.g., round corners, U turns, etc.)} 
+      & NO \\ \hline
 
     \end{tabular}\hspace*{-1cm}\vspace*{-1cm}
     \hspace*{1cm}\vspace*{1cm}\caption{Comparison of Games}
