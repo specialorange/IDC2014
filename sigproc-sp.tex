@@ -37,6 +37,9 @@
 \usepackage{ragged2e}
 \hypersetup{colorlinks=false}
 
+\newcommand\T{\rule{0pt}{2.6ex}}       % Top strut
+\newcommand\B{\rule[-1.2ex]{0pt}{0pt}} % Bottom strut
+
 \begin{document}
 
 \title{Games for Computational Thinking}
@@ -121,7 +124,7 @@ Dennis Kafura\\
 \begin{abstract}
 Computational thinking (CT) is increasingly seen as a core literacy skill for the modern world at par with the long-established skills of reading, writing, and arithmetic. 
 To promote the learning of CT at a young age we capitalized on the natural inclination to engage in play. 
-We designed two physical CT games and continued development on RabBit EscApe, to challenge kids to orient magnetized  manipulative tiles to fill paths. 
+We designed two physical CT games and continued development on `RabBit EscApe', to challenge kids to orient magnetized  manipulative tiles to fill paths. 
 Our vision is to have K-12 students engage in different games that introduce and broaden their understanding of CT throughout their education. 
 The development cost for each age-appropriate game is minimal, increasing feasibility of implementation and target audience participation. 
 Individually, the games challenge students to grow their understanding of CT in an acute, focused activity, while collectively they maintain CT as a core literacy skill throughout their education.
@@ -153,7 +156,7 @@ Rather than asking educators to learn yet another subject, and try to squeeze it
 
 \section{Computational Thinking}
 \label{sec:computational_thinking}
-In search of a widely accepted CT definition for use while developing our game we chose the Operational Definition of Computational Thinking for K–12 Education by the International Society for Technology in Education (ISTE) \cite{operationalct}. 
+In search of a widely accepted CT definition for use while developing our game we chose the Operational Definition of Computational Thinking for K-12 Education by the International Society for Technology in Education (ISTE) \cite{operationalct}. 
 We thought this to be an appropriate definition due its relevance to our target group (a large part of research on CT is being done with college-level students), but also its clear approach on the expectations, skills, and attitudes involved. 
 According to this definition, ``CT is a problem-solving process that includes (but is not limited to) the following characteristics'': 
 \begin{itemize}
@@ -207,7 +210,7 @@ While improving recruitment of computer scientists is a major focus of many CT r
 
 % INCLUDE SOMEWHERE (here?) A VERBAL OUTLINE OF WHAT'S TO COME (NEED TO FINISH WRITING IT FIRST)
 
-\section{\sloppy Educational and Computational Thinking Games}
+\section{\sloppy Related Work of Educational and Computational Thinking Games}
 \label{sec:ed_games}
 The tradition of using games for education is a long one. Children grow up and get to know the world around them through play.
 Most of their interactions in an early age are through touch, and other senses as well, and this is why most of the games of early childhood are tangible.
@@ -236,6 +239,7 @@ The aspects of CT they chose to focus on were conditional logic, distributed pro
 
 Our research led us to review many current commercialized games, and to develop some ideas that can potentially be used for teaching CT indirectly, as seen in {\em \hyperref[table:games-comparison]{\nameref{table:games-comparison}}}.
 We analysed each game for the following common CT definitional paradigms: modeling, abstraction, algorithms, artistic creation, goal disection, risk/reward comparison, shared roles, patterns, and simulation.
+
 We describe CT \textbf{modeling} in games as the creation of an operational abstraction that captures the properties of an object sufficient for reasoning or simulation; e.g. in Guess Who you have to model a person to identify, and understand the different physical characteristics of the person as well as the articles that each person may wear.
 \textbf{Abstraction} is the process of theoretically describing existing problems without a specific examples in a manner that enables reusability of produced solution(s) in the same or other contexts; e.g. in Battleship you have to abstract the opponent's pattern of ship placement to locate and destroy his fleet.
 \textbf{Algorithms} are reusable components (most often deriving from abstraction) describing a procedure that facilitates problem-solving; e.g., in Tic-Tac-Toe or Chess, a user can construct an algorithm of game play that produces the same result whenever enacted.
@@ -427,7 +431,7 @@ This can be achieved through guiding questions that will lead children to evalua
 Questions like ``How big should this piece be?'', ``How should it attach to adjacent blocks?'', and ``What polarity should the magnets have?'' will help them construct mental functions of bit and path properties that need to be evaluated at every point in the game.
 
 Social interactions are of pivotal importance in the conversion of the game attributes (i.e., path shape on board, bit properties, remaining bits) into mental functions. 
-Students need not only rely on the guidance of a tutor but also on their peers; students should be encouraged to question each other’s assumptions while moving from the initial introductory puzzles to more complex game boards. 
+Students need not only rely on the guidance of a tutor but also on their peers; students should be encouraged to question each other's assumptions while moving from the initial introductory puzzles to more complex game boards. 
 The goal would be to keep the students in the optimal cognitive state where they feel confident in dealing with the task at hand (i.e., forming parts of the path), but they are not overwhelmed by the complexity of the problem (i.e., completing the whole board). 
 This condition, also known as the ``zone of proximal development'' \cite{vygotsky1987zone} is where learning is more effective, by internalizing external representations through social negotiations.
 
@@ -472,7 +476,7 @@ We believe that addressing CT directly, in conjunction with more subtle interact
 \clearpage
 \begin{sidewaystable}[htbp]
 \tiny
-    \vspace*{-12cm}\hspace*{-1cm}\begin{tabular}{|p{1.3cm}||p{1cm}|p{2cm}|p{2cm}|p{1.6cm}|p{2cm}|p{1.3cm}|p{2cm}|p{1cm}|p{1.3cm}|p{2.7cm}|p{1cm}|}
+    \vspace*{-12cm}\hspace*{-1cm}\begin{tabular}{|p{1.5cm}||p{1.5cm}|p{2.5cm}|p{2.5cm}|p{2.7cm}|p{2cm}|p{1.5cm}|p{2cm}|p{3.5cm}|p{1.5cm}|}
     
     \hline
 
@@ -697,7 +701,7 @@ We believe that addressing CT directly, in conjunction with more subtle interact
       & NO 
       & NO 
       & NO 
-      & NO \\ \hline \hline
+      & NO \\ \hline \hline    
 
     \multicolumn{10}{|l|}{Proposed Games} \\ \hline \hline
 
@@ -790,8 +794,8 @@ We believe that addressing CT directly, in conjunction with more subtle interact
 
 \clearpage
 %ACKNOWLEDGMENTS are optional
-\section{Acknowledgments}
-Dane Webster, our CT class?
+% \section{Acknowledgments}
+% Dane Webster, our CT class?
 
 %
 % The following two commands are all you need in the
