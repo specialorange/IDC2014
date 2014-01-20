@@ -35,6 +35,8 @@
 \usepackage{nameref}
 \usepackage{hyperref}
 \usepackage{ragged2e}
+\usepackage{relsize}
+
 \hypersetup{colorlinks=false}
 
 \begin{document}
@@ -217,6 +219,11 @@ According to this definition, ``CT is a problem-solving process that includes (b
   \item{Identifying, analyzing, and implementing possible solutions with the goal of achieving the most efficient and effective combination of steps and resources}
   \item{Generalizing and transferring this problem solving process to a wide variety of problems}
 \end{itemize}
+
+XXXX
+These skills include dispositions:
+Confidence in dealing with complexity, persistence in working with difficult problems, tolerance for ambiguity, the ability to deal with open-ended problems, the ability to communicate and work with others to achieve a common goal or solution.
+
 While we, like many researchers, consider abstraction to be a critical part of CT, we believe that it is necessary to simultaneously teach the dangers of abstraction. 
 In line with Blackwell, et al., we agree that abstraction might be ``antagonistic to reasonable human concerns''\cite{blackwell2008abstract}. 
 Along the same lines, Turkle and Papert have argued long ago that ``concrete and personal approaches'' to computing should not be downplayed in favor of formal and ``abstract approaches'', nor should they be dismissed as more inferior \cite{turkle1990epistemological}. 
@@ -286,6 +293,7 @@ The aspects of CT they chose to focus on were conditional logic, distributed pro
 \section{Computational Thinking in Existing Games}
 \label{sec:CT_current_games}
 Our research led us to review many current commercialized games, and to develop some ideas that can potentially be used for teaching CT indirectly, as seen in \textit{Table \ref{table:games-comparison}}: \textit{\nameref{table:games-comparison}}.
+While not exhaustive, we began with games that we identified as potentially having CT principles present.
 We analysed each game for the following common CT definitional paradigms: modeling, abstraction, algorithms, artistic creation, goal disection, risk/reward comparison, shared roles, patterns, and simulation.
 In order to evaluate the existing games, and to design new ones, we used an iterative process, starting with the operational definition of CT above (\cite{operationalct}).
 First, we considered whether its components were arguably present in existing games.
@@ -304,10 +312,9 @@ Understanding the effects of a role and being able to empathize with others' rol
 \textbf{Simulation} is to imitate possible outcomes given a certain state (for example given a set of models and their relationships, as potentially modified by roles or other special circumstances) and stimuli.
 This means understanding the conditional interaction of models and their environment and stimuli and could be used to forecast future events in turn-based or other games; Dominoes can be setup in the same layout and played in repetition to discuss alternative gameplay and strategy.
 
-XXXX INsert completed paragraph about analysis and cite the table 1 XXXX
 Having completed this extensive analysis, unsatisfied, and questioning whether it would be possible to teach CT in tangible games, we decided to pursue our own low-cost game ideas.
 
-\section{RabBit EscApe}
+\section{R{\smaller{ab}}B{\smaller{it}} E{\smaller{sc}}A{\smaller{pe}}}
 \label{sec:rabbit}
 RabBit EscApe is a board game with tangible wooden pieces intended for ages 8 and up.
 As shown from previous work, tangible wooden blocks like the Froebel blocks \cite{liebschner1992child} are very engaging and educational for this age group, contributing to children's emotional, social, and physical development through play.
@@ -409,16 +416,17 @@ Considering the game mechanics and suggested activities discussed previously, we
 XXXX Need to move the dispositions alongside the definition XXXX
 Additionally, the game supports all dispositions and attitudes that are essential dimensions of CT, as expressed by the aforementioned definition which is pertinent to K-12 students:
 \begin{itemize}
-       \item \textbf{Confidence in dealing with complexity}:
-       puzzles are inherently complex systems and without an operational strategy for dealing with complexity, the task might prove too challenging.
+       \item \textbf{Confidence in dealing with complexity\label{itm:1_confidence}}:
+       Puzzles are inherently complex systems and without an operational strategy for dealing with complexity, the task might prove too challenging.
        RabBit EscApe introduces added complexity due to the additional puzzle piece properties that need to be accounted for.
        Confidence is built through successive iterations and attempts during the scaffolded activities, as discussed further under the section on Instructional Design.
-       \item \textbf{Persistence in working with difficult problems}:
-       deriving from the previous attitude, students are called to overcome initial frustration and persist in finding the solution. Our observations verified this point, since both teams finished the game with one wrong bit placement, but still persevered to start over and get the whole path completed correctly.
-       \item \textbf{Tolerance for ambiguity}: 
+       \item \textbf{Persistence in working with difficult problems\label{itm:2_persistence}}:
+       Deriving from the previous attitude, students are called to overcome initial frustration and persist in finding the solution. Our observations verified this point, since both teams finished the game with one wrong bit placement, but still persevered to start over and get the whole path completed correctly.
+       \item \textbf{Tolerance for ambiguity\label{itm:3_tolerance}}: 
        All three of the suggested play strategies include some degree of ambiguity deriving from either the complexity of the board and the amount of clues provided (e.g. including block divisions or a ``cheat sheet''), or from the collaborative or competitive nature of the game (i.e. no two  players have the same understanding about, nor expectations for the game). 
-       \item \textbf{The ability to deal with open-ended problems}: Being able to cultivate the previous attitude naturally leads to practicing their ability to deal with open-ended problems. Game strategy C. Board Construction, especially, demands that players both have a good understanding of the game mechanics and bit properties, and are willing to deal with the messy process of modeling a new path with minimal constraints.
-       \item \textbf{The ability to communicate and work with others to achieve a common goal or solution}:
+       \item \textbf{The ability to deal with open-ended problems\label{itm:4_open_ended}}:
+       Being able to cultivate the previous attitude naturally leads to practicing their ability to deal with open-ended problems. Game strategy C. Board Construction, especially, demands that players both have a good understanding of the game mechanics and bit properties, and are willing to deal with the messy process of modeling a new path with minimal constraints.
+       \item \textbf{The ability to communicate and work with others to achieve a common goal or solution\label{itm:5_communicate}}:
        All three modes of play have been designed to encourage or demand some form of collaboration or competition.
        This requires players to externalize their mental models and rectify any misconceptions.
        Even in the competitive strategy, students have to express their intentions through negotiations with the opponent(s), as a means to achieve their individual or team goal.
