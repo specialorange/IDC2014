@@ -1,0 +1,9 @@
+*.cls
+*eps
+*.aux
+*.bbl
+*/blg
+*latex
+*.log
+*.out
+*.gz

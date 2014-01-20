@@ -181,8 +181,8 @@ There are countless pressures on primary school curricula to include ever more d
 Rather than asking educators to learn yet another subject, and try to squeeze it in (often resulting in something else out) of their teaching time, we intended to design activities that would support their current curricula, but add a new perspective that might help lay the ground work for more explicit CT discussions in later education.
 
 \section{\sloppy Related Work}
-\label{sec:related_work}
-Need something in here
+\label{sec:ed_games}
+In our effort to imbue today's children with some of these skills they will need for tomorrow, we build on the prior work in computational thinking and educational games.
 
 \subsection{Computational Thinking}
 \label{sec:computational_thinking}
@@ -203,15 +203,15 @@ Along the same lines, Turkle and Papert have argued long ago that ``concrete and
 Their thesis, based on ethnographic and psychology investigations, aligns well with the theory of situated learning which postulates that people learn contextually, by being actively engaged in authentic (learning) activities, and not in the decontextualized and abstract manner of formal education \cite{brown1989situated}. 
 Therefore, we did not consider abstraction as a critical element of teaching CT to our target group.
 
-\subsection{Recruitment of Computer Scientists}
+There have been many agenedas supporting research in CT. We briefly review these to further contextualize our work and the importance of CT.
+
+\subsection{Increased, Broadened Participation in a Computational Future}
 \label{sec:recruitment}
 Each year, for several years now, there have been insufficient computer scientists for market demand.
 The result is increased reliance on imported laborers, exported labor, and decreased productivity, innovation, and security.
 To this end, some believe that supporting an agenda of teaching CT to many if not all students could increase the number of computer scientists.
 
-\subsubsection{Broadening Participation}
-\label{sec:broadening_participation}
-If indeed, ``Computer science is no more about computers than astronomy is about telescopes,''\cite{cs-astronomy} why do so many ``CS0'' courses begin with computers, and usually with programming? Especially as they were historically taught (with some notable exceptions such as Papert et al.)\cite{logo-readings}, programming and its allure through precise control over the machine does not appeal to all.
+If indeed, ``Computer science is no more about computers than astronomy is about telescopes,''\cite{cs-astronomy} why do so many ``CS0'' courses begin with computers, and usually with programming? Especially as they were historically taught (with some notable exceptions such as Papert et al.)\cite{logo-readings}, programming and its allure of precise control over the machine does not appeal to all.
 
 In order to broaden the participation in computer science (CS) to more diverse demographics of students, it may be necessary to change the entry routes and introductions to be similarly diverse. 
 In this vein, projects like ALICE\cite{pausch1995alice}, Media Computation\cite{guzdial2003media}, and CS Unplugged\cite{csunplugged} are useful exemplars.
@@ -220,8 +220,6 @@ Many of the definitions developed for CT have specifically excluded programming;
 Activities that differ from programming may appeal to different demographics.
 Additionally, some demographics that may lack resources (human, electronic, and monetary) sufficient for learning programming may be able to utilize CS Unplugged or CT curricula.
 
-\subsubsection{Increasing Participation}
-\label{sec:increasing_participation}
 Aside from efforts attempting to broaden participation, there are efforts that merely seek to increase participation.
 How should someone know they might be interested in CS?
 From the earliest education, we expose students to reading, writing, and arithmetic.
@@ -232,11 +230,9 @@ Unfortunately, only after a student [or their parent(s)] elects to take a progra
 CT, rather than programming, might be taught explicitly, as its own subject, or implicitly in the context of other subjects, at ages much younger than a high school programming course.
 Then, more students will have an opportunity to recognize an affinity for skills that would support a pursuit of education in CS, or at minimum, understand the benefits of applying CT in fields of their own interest.
 
-\subsection{Preparing the 21st Century Citizen}
-\label{sec:citizens}
-While improving recruitment of computer scientists is a major focus of many CT research agendas, an emerging concern is the general public's preparedness for the increasingly technological modern age. Many researchers' definitions of CT attempt to specify important skills related to technology and computation that the researchers themselves predict to be necessary as our society continues to adopt technological solutions in virtually every domain. Some call this computational or technological literacy rather than CT.
+Fianlly, while improving recruitment of computer scientists is a major focus of many CT research agendas, an emerging concern is the general public's preparedness for the increasingly technological modern age. Many researchers' definitions of CT attempt to specify important skills related to technology and computation that the researchers themselves predict to be necessary as our society continues to adopt technological solutions in virtually every domain. Some call this computational or technological literacy rather than CT.
 
-\subsection{Educational Games}
+\subsection{Tangible Educational Games}
 \label{sec:ed_games}
 The tradition of using games for education is a long one. Children grow up and get to know the world around them through play.
 Most of their interactions in an early age are through touch, and other senses as well, and this is why most of the games of early childhood are tangible.
@@ -268,8 +264,8 @@ The aspects of CT they chose to focus on were conditional logic, distributed pro
 % INCLUDE SOMEWHERE (here?) A VERBAL OUTLINE OF WHAT'S TO COME (NEED TO FINISH WRITING IT FIRST)
 
 \section{Computational Thinking in Existing Games}
-
-Our research led us to review many current commercialized games, and to develop some ideas that can potentially be used for teaching CT indirectly, as seen in {\em \hyperref[table:games-comparison]{\nameref{table:games-comparison}}}.
+\label{sec:CT_current_games}
+Our research led us to review many current commercialized games, and to develop some ideas that can potentially be used for teaching CT indirectly, as seen in \textit{Table \ref{table:games-comparison}}: \textit{\nameref{table:games-comparison}}.
 We analysed each game for the following common CT definitional paradigms: modeling, abstraction, algorithms, artistic creation, goal disection, risk/reward comparison, shared roles, patterns, and simulation.
 
 We describe CT \textbf{modeling} in games as the creation of an operational abstraction that captures the properties of an object sufficient for reasoning or simulation; e.g. in Guess Who you have to model a person to identify, and understand the different physical characteristics of the person as well as the articles that each person may wear.
@@ -635,18 +631,6 @@ We believe that addressing CT directly, in conjunction with more subtle interact
       & \cellcolor{blue!25}YES, in end game 
       & NO \\ \hline
 
-    % Resistance 
-    %   & NO 
-    %   & NO 
-    %   & NO 
-    %   & NO 
-    %   & NO 
-    %   & NO 
-    %   & NO 
-    %   & NO 
-    %   & NO 
-    %   & NO \\ \hline
-
     Acquire 
       & NO 
       & NO 
@@ -774,18 +758,7 @@ We believe that addressing CT directly, in conjunction with more subtle interact
       & NO 
       & \cellcolor{blue!25}YES 
       & NO \\ \hline
-    
-    % Collaborative matching 
-      % & NO 
-      % & NO 
-      % & NO 
-      % & NO 
-      % & NO 
-      % & NO 
-      % & NO 
-      % & NO 
-      % & NO \\ \hline
-    
+        
     Mixing water Bottles (from Die Hard\cite{diehard2008thorp}) 
       & \cellcolor{blue!25}YES 
       & \cellcolor{blue!25}YES 
@@ -826,16 +799,16 @@ We believe that addressing CT directly, in conjunction with more subtle interact
 \end{sidewaystable}
 
 \clearpage
+
 %ACKNOWLEDGMENTS are optional
 % \section{Acknowledgments}
-% Dane Webster, our CT class?
 
-%
 % The following two commands are all you need in the
 % initial runs of your .tex file to
 % produce the bibliography for the citations in your paper.
 \bibliographystyle{abbrv}
-% \bibliography{sigproc} % sigproc.bib is the name of the Bibliography in this case
+\bibliography{sigproc}
+
 % You must have a proper ".bib" file
 % and remember to run:
 % latex bibtex latex latex
@@ -878,7 +851,6 @@ We believe that addressing CT directly, in conjunction with more subtle interact
 % \texttt{{\char'134}additionalauthors} command at the start
 % of the document.
 % \subsection{References}
-\bibliography{sigproc}
 % Generated by bibtex from your ~.bib file. Run latex,
 % then bibtex, then latex twice (to resolve references)
 % to create the ~.bbl file. Insert that ~.bbl file into
