@@ -1,8 +1,8 @@
 *eps
 *.aux
 *.bbl
-*/blg
-*latex
+*.blg
+*latex*
 *.log
 *.out
 *.gz
