@@ -175,9 +175,24 @@ In today's world of ever more pervasive technology, we consider technological sk
 Computational Thinking (CT) is a current area of inquiry around what it takes for the 21st century citizen to function in an environment where interacting with technology is required for much more than work or recreation, but also to act on other necessities.
 To help produce future generations with these competencies, we believe that we should start teaching these concepts at a young age, and continue using a spiral curriculum \cite{bruner1963process,bruner1966towards} to reintroduce elements of CT in different subjects and different years.
 In order to be successful with such young children, and when repeatedly encountering these themes, it is important for the activities to be engaging, pedagogically sound, and well- (but not over) structured.
-To this end, we created a physical board game that we argue engages children and is pedagogically sound.
 
-In the following sections, we review the prior work related to Computational Thinking and Educational games, choose a working definition of CT, review existing games for their inclusion of CT, and explain the design and pilot of a new game to teach CT.
+The overarching goal would be to equip children with the necessary problem-solving skills to cope with the abundance of challenges in our increasingly technologically-demanding era. 
+Being able to solve hard problems through computation is a considerable qualification for their future everyday and professional lives, or in the words of Andrea diSessa a ``cognitive pillar'' of literacy \cite{disessa2001changing}. 
+There are many opportunities in children’s world for leveraging this type of thinking and to help them develop the necessary skills, which have recently been included under the umbrella of CT. 
+Games like Scrabble and chess are examples of appropriate vehicles for evoking the higher-order skills that are necessary for effective problem-solving \cite{newell1972human}. 
+Additionally, games are motivating for children and promote learning in an engaging and entertaining manner.
+We created a physical board game to underpin the skills and attitudes necessary for dealing with the complex problems that children need to face today. 
+We argue that the game is a pedagogically sound sand box for enabling children to engage in CT through collaborative problem-solving. 
+We have taken into account previous work both in computer and tangible games and how they leverage the involved CT skills for successful game play. 
+In the following sections, we review the work related to Computational Thinking and tangible educational games, review existing games for their inclusion of CT concepts, and explain the design and pilot of RabBit EscApe, our new board game to teach CT. We finish by presenting the instructional and interaction design that we think supports the educational activities in the game.
+
+
+
+
+
+% To this end, we created a physical board game that we argue engages children and is pedagogically sound.
+
+% In the following sections, we review the prior work related to Computational Thinking and Educational games, choose a working definition of CT, review existing games for their inclusion of CT, and explain the design and pilot of a new game to teach CT.
 
 % start young, needs to be engaging, well-structured, and pedagogically sound
 % so our goal is to test one way of doing this
@@ -261,9 +276,11 @@ Finally, while improving recruitment of computer scientists is a major focus of 
 
 \subsection{Tangible Educational Games}
 \label{sec:ed_games}
-The tradition of using games for education is a long one. Children grow up and get to know the world around them through play.
+The tradition of using games for education is a long one. 
+Children grow up and get to know the world around them through play.
 Most of their interactions in an early age are through touch, and other senses as well, and this is why most of the games of early childhood are tangible.
 This realization was what led the German educator Friedrich Froebel to build a series of wooden blocks known as Froebelgrabe (i.e., Froebel gifts) in an attempt to foster children's self-directed activity in exploring the world and using the environment as a learning aid \cite{liebschner1992child}.
+
 Based on this notion of learning by doing, researchers at MIT Media Laboratory have coined the term objects-to-think-with as a means to leverage the power of computation in the exploration process \cite{resnick1998digital,schweikardt2006roblocks}. LEGO/Logo is maybe the most famous offspring of this approach where students are learning to program by controlling enhanced LEGO structures (equipped with motors and sensors).
 Resnick et al. proposed ``digital manipulatives'' as a continuation of this work where students are called to control through Logo programming other tangible artifacts like blocks, balls, beads, and badges \cite{liebschner1992child}.
 On the contrary, we were interested to investigate how low-cost games with easy to manufacture components can be leveraged to provide CT exposure to very young children. 
@@ -286,30 +303,35 @@ For example, Berland and Lee explored the CT that might be taught in the commerc
 As Pandemic is essentially a graph-theoretical representation of several major cities in the world, and the game is cooperative, with the result that the game mechanic is the opponent rather than the other human players, there is some promise to this idea.
 The aspects of CT they chose to focus on were conditional logic, distributed processing, debugging, simulation, and algorithm building. 
 
+One of the things Berland and Lee propose in their work is that maybe board game designers should focus on intentionally designing their games as a means to encourage computational thinking. 
+We too think that there is great potential in exploring the challenges of instructional design in turning a tabletop game into a tool for developing digital media literacy. 
+Our work, starting with investigating existing games and actually developing a board game, is directed towards this path
+
 % DO WE WANT TO MOVE ALL PREVIOUS SECTIONS TO BE SUBSECTIONS OF THE INTRO? (Kafura's comment on page 5 right before the following section implies that he thought they were.)
 
 % INCLUDE SOMEWHERE (here?) A VERBAL OUTLINE OF WHAT'S TO COME (NEED TO FINISH WRITING IT FIRST)
 
 \section{Computational Thinking in Existing Games}
 \label{sec:CT_current_games}
-Our research led us to review many current commercialized games, and to develop some ideas that can potentially be used for teaching CT indirectly, as seen in \textit{Table \ref{table:games-comparison}}: \textit{\nameref{table:games-comparison}}.
-While not exhaustive, we began with games that we identified as potentially having CT principles present.
-We analyzed each game for the following common CT definitional paradigms: modeling, abstraction, algorithms, artistic creation, goal dissection, risk/reward comparison, shared roles, patterns, and simulation.
+Our research led us to review many current, commercialized games and to develop some ideas that can potentially be used for teaching CT indirectly, as seen in \textit{Table \ref{table:games-comparison}}: \textit{\nameref{table:games-comparison}}.
+We do not intend this table to be an exhaustive or authoritative account of all games that may have some elements of CT.
 In order to evaluate the existing games, and to design new ones, we used an iterative process, starting with the operational definition of CT above (\cite{operationalct}).
-First, we considered whether its components were arguably present in existing games.
-Next, we considered games that our intuition suggest embody CT, but were not arguable under the existing definition.
+From this definition we extracted some elements of CT, and analyzed games that we identified as potential candidates for teaching CT, attempting to make an argument that each game included each element of CT.
+Next, we considered games that our intuition suggested embody CT, but were not arguable under the existing definition.
 From these games, we isolated further components of CT, which we then looked for in the previously analyzed games.
+Ultimately, we analyzed each game for the following elements of CT: modeling, abstraction, algorithms, artistic creation, goal dissection, risk/reward comparison, shared roles, patterns, and simulation.
+% First, we considered whether its components were arguably present in existing games.
 
 \begin{itemize}
-  \item{We describe CT \textbf{modeling} in games as the creation of an operational abstraction that captures the properties of an object sufficient for reasoning or simulation; e.g. in Guess Who you have to model a person to identify, and understand the different physical characteristics of the person as well as the articles that each person may wear.}
-  \item{\textbf{Abstraction} is the process of theoretically describing existing problems without a specific examples in a manner that enables reusability of produced solution(s) in the same or other contexts; e.g. in Battleship you have to abstract the opponent's pattern of ship placement to locate and destroy his fleet.}
+  \item{\textbf{Modeling} in games is the creation of an operational abstraction that captures the properties of an object sufficient for reasoning or simulation; e.g. in Guess Who you have to model a person to identify, and understand the different physical characteristics of the person as well as the articles that each person may wear.}
+  \item{\textbf{Abstraction} is the process of theoretically describing existing problems without specific examples in a manner that enables reusability of produced solution(s) in the same or other contexts; e.g. in Battleship you have to abstract the opponent's pattern of ship placement to locate and destroy his fleet.}
   \item{\textbf{Algorithms} are reusable components (most often deriving from abstraction) describing a procedure that facilitates problem-solving; e.g., in Tic-Tac-Toe or Chess, a user can construct an algorithm of game play that produces the same result whenever enacted.}
-  \item{\textbf{Artistic Creation} is described as the creation or definition of a model or idea in an artistic nature utilizing personal intuition or ecological inspiration, not stemming from any pre-requisite, defined requirement, or traditional linear thought; Mad Lib's use of open ended queries for parts of speech exemplifies participant's answers as artistic creation/interpretation.}
-  \item{\textbf{Goal Dissection} is described as breaking down the goals or intentions of a game into smaller unique achievable or comprehensible units; to win Acquire, a player must understand the winning condition and the many different ways it can be achieved, by themselves and others.}
-  \item{\textbf{Risk vs Reward} is an situation where a correct solution is unknown and each potential step has to be weighed against the consequences of discovering if it is a correct solution or dead end; While trying to determine the killer in Clue, several options might exist to declare to hopefully gain insight into another clue, however no currently known information easily guides the player to take one action over another.}
-  \item{\textbf{Shared Roles} roles generally define some rules that may be specific to a subset of the players, and they may additionally modulate the relationships or abilities of players.
-  Understanding the effects of a role and being able to empathize with others' roles at least improves (or even enables) one to simulate future events in the game; while Chess does have an opponent, their roles, actions, and opportunities do not differ from oneself, whereas in Cranium, several smaller games require you to empathize with a teammate's knowledge to communicate in non-traditional methods to reach an understanding.}
-  \item{\textbf{Patterns} are distinguishable events, results, consequences, arrangements, designs, or aesthetics that can be identified to or realized by participants; Checkers openings or end game situations can be recognized as a situational pattern.}
+  \item{\textbf{Artistic Creation} is the creation or definition of a model or idea in an artistic nature utilizing personal intuition or ecological inspiration, not stemming from any pre-requisite, defined requirement, or traditional linear thought; the use of open ended queries for parts of speech in Mad Libs exemplifies participants' answers as artistic creation.}
+  \item{\textbf{Goal Dissection} is breaking down the goals or intentions of a game into smaller unique achievable or comprehensible units; to win Acquire, a player must understand the winning condition and the many different ways it can be achieved.}
+  \item{\textbf{Risk vs. Reward} is a situation where a correct solution is unknown and each potential step has to be weighed against the consequences of discovering if it is a correct solution or dead end; while trying to determine identity of the killer in Clue, several options might exist to gain insight into another clue; however, no currently known information simply directs the player to take a particular action.}
+  \item{\textbf{Shared Roles} are rules that may be specific to a subset of the players, and they may additionally modulate the relationships or abilities of players.
+  Understanding the effects of a role and being able to empathize with others' roles at least improves (or even enables) one to simulate future events in the game; while Chess does have an opponent, their roles, actions, and opportunities do not differ from oneself, whereas in Cranium, several smaller games require you to empathize with a teammate's knowledge to communicate in non-traditional methods.}
+  \item{\textbf{Patterns} are distinguishable events, results, consequences, arrangements, designs, or aesthetics that can be identified to or realized by participants; Checkers openings or end game situations can be recognized as a pattern.}
   \item{\textbf{Simulation} is to imitate possible outcomes given a certain state (for example given a set of models and their relationships, as potentially modified by roles or other special circumstances) and stimuli.
   This means understanding the conditional interaction of models and their environment and stimuli and could be used to forecast future events in turn-based or other games; Dominoes can be setup in the same layout and played in repetition to discuss alternative gameplay and strategy.}
 \end{itemize}
@@ -520,18 +542,23 @@ Records must be established to keep track of which pieces have been cut, tapped,
 The use of various custom jigs is important not only for speed, but also for consistent results require for piece alignment during gameplay.
 For future work, we might propose just such exercises for high school students or above in a ``workshop''-style class.
 % To determine the kind of physical and process scaffolding needed to produce consistent sizes of pieces in a timely fashion is important and difficult. 
-From RabBit EscApe's theoretical design, we believe it shows promise for teaching CT. With additional levels that highlight common obstacles faced (ie. all pieces must have a southern faced )
+From RabBit EscApe's theoretical design, we believe it shows promise for teaching CT. 
+% With additional levels that highlight common obstacles faced (ie. all pieces must have a southern faced )
 
 \section{Conclusion}
 \label{sec:conclusion}
 \sloppy As CT continues to be discussed in academic and professional communities and until a more concrete definition emerges, a significant leap must be made to educate our communities' youth as society continues to develop computational systems with which they must interact, whether or not they can understand them. 
 
-VT has embarked on a bold course to develop the CT capabilities of all its graduates.
-Simultaneously the US National Science Foundation is funding research into how to develop these skills in the broader population.
-While we think that VT can be effective in this pursuit, we believe that to truly change the CT of the population as a whole, we must have myriad interventions at various stages of an individual's formal and informal education.
+While there are many definitions of CT, many of the definitions have common elements, and many of the agendas motivating these definitions have complementary goals. 
+Certainly there are many games that are educational, and as we reviewed here, there are even many existing games that teach elements of CT, but most of these (with the notable exception of Robot Turtles \cite{robotturtles}) were not specifically designed to support CT, and as such are (understandably) anemic with respect to its elements.
 
-In support of educating students at a younger age (than undergraduate students), we have developed RabBit EscApe to teach CT in a relatively explicit way.
-We believe that addressing CT directly, in conjunction with more subtle interactions such as integrating CT with core content in existing formal education curricula \cite{NSFCE21} will best facilitate the learning of CT and its successful transfer and application to each individual's area of interest or expertise.
+% VT has embarked on a bold course to develop the CT capabilities of all its graduates.
+% Simultaneously the US National Science Foundation is funding research into how to develop these skills in the broader population.
+% While we think that VT can be effective in this pursuit, we believe that to truly change the CT of the population as a whole, we must have myriad interventions at various stages of an individual's formal and informal education.
+
+In support of educating young students, we have developed RabBit EscApe to teach CT in a relatively explicit way.
+Having run a pilot to observer children's interaction with each other and our game, we believe that this kind of system, with its interaction between manipulatives, and its nudgers for how the students will interact is a promising way to proceed in teaching CT to children in an engaging way.
+We believe that addressing CT directly, in conjunction with more subtle interactions such as integrating CT with core content in existing formal education curricula \cite{tatarce21} will best facilitate the learning of CT and its successful transfer and application to each individual's area of interest or expertise.
 
 % We should discuss whether we should include text, annotations, or just y/n/m and switch to color coding. It appears we can fir everything in, but another run or look at it couldn't hurt, as we didn't do analysis on two of the games we listed
 \clearpage
