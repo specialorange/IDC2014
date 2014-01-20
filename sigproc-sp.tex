@@ -37,9 +37,6 @@
 \usepackage{ragged2e}
 \hypersetup{colorlinks=false}
 
-\newcommand\T{\rule{0pt}{2.6ex}}       % Top strut
-\newcommand\B{\rule[-1.2ex]{0pt}{0pt}} % Bottom strut
-
 \begin{document}
 
 \title{Games for Computational Thinking}
@@ -84,36 +81,65 @@
 % affiliation/address with \affaddr, and tag the
 % e-mail address with \email.
 %
-% 1st. author
 \alignauthor
-Panagiotis Apostolellis\\
- \affaddr{Virginia Tech}\\
- \affaddr{2202 Kraft Dr.}\\
- \affaddr{Blacksburg, VA 24060}\\
- \email{panaga@vt.edu}
+Fname Lname\\
+ \affaddr{Our Institution}\\
+ \affaddr{1234 Main St.}\\
+ \affaddr{Ourcollegetown, SA 90210}\\
+ \email{myemail@oi.tld}
 % 2nd. author
 \alignauthor
-Chris Frisina\\
- \affaddr{Virginia Tech}\\
- \affaddr{2202 Kraft Dr.}\\
- \affaddr{Blacksburg, VA 24060}\\
- \email{special@vt.edu}
+Fname Lname\\
+ \affaddr{Our Institution}\\
+ \affaddr{1234 Main St.}\\
+ \affaddr{Ourcollegetown, SA 90210}\\
+ \email{myemail@oi.tld}
 % 3rd. author
 \alignauthor
-Michael Stewart\\
- \affaddr{Virginia Tech}\\
- \affaddr{2202 Kraft Dr.}\\
- \affaddr{Blacksburg, VA 24060}\\
- \email{tgm@vt.edu}
+Fname Lname\\
+ \affaddr{Our Institution}\\
+ \affaddr{1234 Main St.}\\
+ \affaddr{Ourcollegetown, SA 90210}\\
+ \email{myemail@oi.tld}
 \and  % use '\and' if you need 'another row' of author names
 % 4th. author
 \alignauthor
-Dennis Kafura\\
- \affaddr{Virginia Tech}\\
- \affaddr{2202 Kraft Dr.}\\
- \affaddr{Blacksburg, VA 24060}\\
- \email{kafura@cs.vt.edu}
+Fname Lname\\
+ \affaddr{Our Institution}\\
+ \affaddr{1234 Main St.}\\
+ \affaddr{Ourcollegetown, SA 90210}\\
+ \email{myemail@oi.tld}
 }
+% 1st. author
+% \alignauthor
+% Panagiotis Apostolellis\\
+%  \affaddr{Virginia Tech}\\
+%  \affaddr{2202 Kraft Dr.}\\
+%  \affaddr{Blacksburg, VA 24060}\\
+%  \email{panaga@vt.edu}
+% % 2nd. author
+% \alignauthor
+% Chris Frisina\\
+%  \affaddr{Virginia Tech}\\
+%  \affaddr{2202 Kraft Dr.}\\
+%  \affaddr{Blacksburg, VA 24060}\\
+%  \email{special@vt.edu}
+% % 3rd. author
+% \alignauthor
+% Michael Stewart\\
+%  \affaddr{Virginia Tech}\\
+%  \affaddr{2202 Kraft Dr.}\\
+%  \affaddr{Blacksburg, VA 24060}\\
+%  \email{tgm@vt.edu}
+% \and  % use '\and' if you need 'another row' of author names
+% % 4th. author
+% \alignauthor
+% Dennis Kafura\\
+%  \affaddr{Virginia Tech}\\
+%  \affaddr{2202 Kraft Dr.}\\
+%  \affaddr{Blacksburg, VA 24060}\\
+%  \email{kafura@cs.vt.edu}
+% }
 
 \date{12 January 2014}
 % Just remember to make sure that the TOTAL number of authors
@@ -154,7 +180,11 @@ In pursuit of this understanding, we developed activities to be performed with s
 There are countless pressures on primary school curricula to include ever more diverse subjects.
 Rather than asking educators to learn yet another subject, and try to squeeze it in (often resulting in something else out) of their teaching time, we intended to design activities that would support their current curricula, but add a new perspective that might help lay the ground work for more explicit CT discussions in later education.
 
-\section{Computational Thinking}
+\section{\sloppy Related Work}
+\label{sec:related_work}
+Need something in here
+
+\subsection{Computational Thinking}
 \label{sec:computational_thinking}
 In search of a widely accepted CT definition for use while developing our game we chose the Operational Definition of Computational Thinking for K-12 Education by the International Society for Technology in Education (ISTE) \cite{operationalct}. 
 We thought this to be an appropriate definition due its relevance to our target group (a large part of research on CT is being done with college-level students), but also its clear approach on the expectations, skills, and attitudes involved. 
@@ -204,13 +234,9 @@ Then, more students will have an opportunity to recognize an affinity for skills
 
 \subsection{Preparing the 21st Century Citizen}
 \label{sec:citizens}
-While improving recruitment of computer scientists is a major focus of many CT research agendas, an emerging concern is the general public's preparedness for the increasingly technological modern age. Many researchers' definitions of CT attempt to specify important skills related to technology and computation that the researchers themselves predict to be necessary as our society continues to adopt technological solutions in virtually every domain. Some call this computational or technological literacy rather than CT, but as Professor Dane Webster mentioned in a presentation to our class, ``Doesn't teaching math students to use a pencil help them to think mathematically?''\cite{webster2013quote}
+While improving recruitment of computer scientists is a major focus of many CT research agendas, an emerging concern is the general public's preparedness for the increasingly technological modern age. Many researchers' definitions of CT attempt to specify important skills related to technology and computation that the researchers themselves predict to be necessary as our society continues to adopt technological solutions in virtually every domain. Some call this computational or technological literacy rather than CT.
 
-% DO WE WANT TO MOVE ALL PREVIOUS SECTIONS TO BE SUBSECTIONS OF THE INTRO? (Kafura's comment on page 5 right before the following section implies that he thought they were.)
-
-% INCLUDE SOMEWHERE (here?) A VERBAL OUTLINE OF WHAT'S TO COME (NEED TO FINISH WRITING IT FIRST)
-
-\section{\sloppy Related Work of Educational and Computational Thinking Games}
+\subsection{Educational Games}
 \label{sec:ed_games}
 The tradition of using games for education is a long one. Children grow up and get to know the world around them through play.
 Most of their interactions in an early age are through touch, and other senses as well, and this is why most of the games of early childhood are tangible.
@@ -236,6 +262,12 @@ However unlike many other domains, the definition and scope of CT is still in fl
 For example, Berland and Lee explored the CT that might be taught in the commercialized board game Pandemic \cite{berland2011collaborative}.
 As Pandemic is essentially a graph-theoretical representation of several major cities in the world, and the game is cooperative, with the result that the game mechanic is the opponent rather than the other human players, there is some promise to this idea.
 The aspects of CT they chose to focus on were conditional logic, distributed processing, debugging, simulation, and algorithm building. 
+
+% DO WE WANT TO MOVE ALL PREVIOUS SECTIONS TO BE SUBSECTIONS OF THE INTRO? (Kafura's comment on page 5 right before the following section implies that he thought they were.)
+
+% INCLUDE SOMEWHERE (here?) A VERBAL OUTLINE OF WHAT'S TO COME (NEED TO FINISH WRITING IT FIRST)
+
+\section{Computational Thinking in Existing Games}
 
 Our research led us to review many current commercialized games, and to develop some ideas that can potentially be used for teaching CT indirectly, as seen in {\em \hyperref[table:games-comparison]{\nameref{table:games-comparison}}}.
 We analysed each game for the following common CT definitional paradigms: modeling, abstraction, algorithms, artistic creation, goal disection, risk/reward comparison, shared roles, patterns, and simulation.
